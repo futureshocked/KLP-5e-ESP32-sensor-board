@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TP4056")(type "KiCad")(uri "/Volumes/Courses/KiCad/KLP 5e ESP32 sensor board/Libraries/Symbols/TP4056.kicad_sym")(options "")(descr ""))
+  (lib (name "PESD5V0S1UL_315")(type "KiCad")(uri "/Volumes/Courses/KiCad/KLP 5e ESP32 sensor board/Libraries/Symbols/PESD5V0S1UL_315.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Footprints")(type "KiCad")(uri "/Volumes/Courses/KiCad/KLP 5e ESP32 sensor board/Libraries/Footprints")(options "")(descr ""))
+)
