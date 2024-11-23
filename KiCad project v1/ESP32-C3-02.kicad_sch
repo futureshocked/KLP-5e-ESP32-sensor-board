@@ -4067,7 +4067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PESD5V0S1UL_315:DIO_PESD5V0S1UL_315"
+		(property "Footprint" "Footprints:DIO_PESD5V0S1UL_315"
 			(at 73.66 133.35 0)
 			(effects
 				(font
@@ -4283,7 +4283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 133.35 79.248 90)
 			(effects
 				(font
@@ -4449,7 +4449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 47.752 106.68 90)
 			(effects
 				(font
@@ -4536,7 +4536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 199.39 140.462 90)
 			(effects
 				(font
@@ -4738,7 +4738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.73 102.108 90)
 			(effects
 				(font
@@ -4939,7 +4939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.73 104.648 90)
 			(effects
 				(font
@@ -5027,7 +5027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 47.752 119.38 90)
 			(effects
 				(font
@@ -5248,7 +5248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 130.81 136.398 90)
 			(effects
 				(font
@@ -5469,7 +5469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 130.81 141.478 90)
 			(effects
 				(font
@@ -5740,7 +5740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm"
 			(at 132.08 149.86 0)
 			(effects
 				(font
@@ -5943,7 +5943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-C3-WROOM-02-H4:MODULE_ESP32-C3-WROOM-02-H4"
+		(property "Footprint" "Footprints:MODULE_ESP32-C3-WROOM-02-H4"
 			(at 179.07 92.71 0)
 			(effects
 				(font
@@ -6506,7 +6506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 80.01 102.108 90)
 			(effects
 				(font
@@ -6658,7 +6658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PESD5V0S1UL_315:DIO_PESD5V0S1UL_315"
+		(property "Footprint" "Footprints:DIO_PESD5V0S1UL_315"
 			(at 81.28 133.35 0)
 			(effects
 				(font
