@@ -1369,6 +1369,190 @@
 				)
 			)
 		)
+		(symbol "SparkFun-Capacitor:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+				(at 1.27 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "CAP-00000"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "1kV"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "100%"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 -1.27)
+					(mid 0 -0.5572)
+					(end -2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-Connector:Conn_01x02_JST_2mm_LiPo"
 			(pin_numbers hide)
 			(pin_names
@@ -3183,7 +3367,7 @@
 		)
 	)
 	(junction
-		(at 102.87 92.71)
+		(at 102.87 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0839649d-c67a-4e40-a3ae-25290788bc02")
@@ -3213,7 +3397,7 @@
 		(uuid "347586ca-2bfb-435b-8989-f03010999956")
 	)
 	(junction
-		(at 250.19 67.945)
+		(at 250.19 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3efa74d6-f3b9-4b33-90d0-63e99f5a6410")
@@ -3225,10 +3409,22 @@
 		(uuid "4374a2f6-6d31-4e7b-aa99-dbe68665e0f8")
 	)
 	(junction
+		(at 77.47 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a9a1f04-004d-4df1-9819-08bbb1470278")
+	)
+	(junction
 		(at 184.15 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72da2752-24d9-4332-a5e1-0134f26d6d97")
+	)
+	(junction
+		(at 91.44 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "938e2e80-a043-4108-8428-11cfadfc62fa")
 	)
 	(junction
 		(at 115.57 76.2)
@@ -3264,14 +3460,6 @@
 		(at 22.86 91.44)
 		(uuid "1ca4cda0-37c1-47d6-928e-196596344784")
 	)
-	(no_connect
-		(at 45.72 71.12)
-		(uuid "40f1501f-ba72-4728-8c64-9354cbc0875f")
-	)
-	(no_connect
-		(at 45.72 73.66)
-		(uuid "8415976f-74c4-4b42-bd96-b44a1e5e4b99")
-	)
 	(wire
 		(pts
 			(xy 203.2 49.53) (xy 203.2 53.34)
@@ -3281,6 +3469,16 @@
 			(type default)
 		)
 		(uuid "03c784a0-6b2d-4bb6-bc4e-db56243949fc")
+	)
+	(wire
+		(pts
+			(xy 63.5 160.02) (xy 67.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d96df77-4b72-41da-9971-abe7ac7f2144")
 	)
 	(wire
 		(pts
@@ -3314,13 +3512,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 92.71) (xy 102.87 97.79)
+			(xy 102.87 97.79) (xy 102.87 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1a5a9856-ecef-468a-9a4c-059071fd6efc")
+	)
+	(wire
+		(pts
+			(xy 77.47 97.79) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa2da35-58db-45b6-8fde-8747ddccec5c")
 	)
 	(wire
 		(pts
@@ -3354,7 +3562,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 83.82) (xy 102.87 92.71)
+			(xy 102.87 83.82) (xy 102.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3504,6 +3712,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 83.82) (xy 77.47 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c064f8-ea9b-4ced-9323-5441191aa871")
+	)
+	(wire
+		(pts
 			(xy 267.97 60.96) (xy 267.97 78.74)
 		)
 		(stroke
@@ -3524,7 +3742,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 91.44) (xy 115.57 92.71)
+			(xy 115.57 91.44) (xy 115.57 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3634,6 +3852,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 62.23) (xy 77.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e38a93d-df94-45e1-90f7-01ecc68e856d")
+	)
+	(wire
+		(pts
 			(xy 220.98 78.74) (xy 254 78.74)
 		)
 		(stroke
@@ -3661,6 +3889,16 @@
 			(type default)
 		)
 		(uuid "81556ef3-1c18-4fde-a047-dc9fb0e0af50")
+	)
+	(wire
+		(pts
+			(xy 63.5 156.21) (xy 67.31 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820044b4-e4d0-4b6a-bea1-a6b2367048b5")
 	)
 	(wire
 		(pts
@@ -3694,7 +3932,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 67.945) (xy 250.19 67.945)
+			(xy 255.27 68.58) (xy 250.19 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3734,7 +3972,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 92.71) (xy 102.87 92.71)
+			(xy 115.57 97.79) (xy 102.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3744,7 +3982,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 92.71) (xy 102.87 92.71)
+			(xy 91.44 97.79) (xy 102.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3804,7 +4042,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 62.23) (xy 91.44 62.23)
+			(xy 115.57 60.96) (xy 115.57 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01e5916-a10f-4b1d-82d3-43e43058b26b")
+	)
+	(wire
+		(pts
+			(xy 72.39 62.23) (xy 77.47 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3834,7 +4082,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 67.945) (xy 250.19 71.12)
+			(xy 250.19 68.58) (xy 250.19 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3924,7 +4172,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 66.04) (xy 250.19 67.945)
+			(xy 250.19 66.04) (xy 250.19 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3974,23 +4222,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 91.44) (xy 91.44 92.71)
+			(xy 91.44 91.44) (xy 91.44 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c70b67f5-a53c-4924-8ca5-ce7f5873b77b")
-	)
-	(wire
-		(pts
-			(xy 255.27 68.58) (xy 255.27 67.945)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c78eb1f4-e319-47aa-b75a-56c3d3668960")
 	)
 	(wire
 		(pts
@@ -4021,6 +4259,16 @@
 			(type default)
 		)
 		(uuid "d70c7fa6-b180-4c95-aaf4-793f7625abf4")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.23) (xy 91.44 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc93869c-c608-42fa-9303-c265320a7584")
 	)
 	(wire
 		(pts
@@ -4196,6 +4444,17 @@
 		)
 		(uuid "6846de4d-1de8-4d7a-9937-21990b03d269")
 	)
+	(label "D+"
+		(at 67.31 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b10518b-941c-4d97-b6c0-2950ba77c4b3")
+	)
 	(label "+5V_USB"
 		(at 210.82 107.95 0)
 		(fields_autoplaced yes)
@@ -4229,6 +4488,17 @@
 		)
 		(uuid "cdacad95-4f9e-4b94-b17c-8b53ead7b708")
 	)
+	(label "D-"
+		(at 67.31 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e413ce52-5d98-4bef-aece-e6469c0adb4a")
+	)
 	(label "+5V_USB"
 		(at 154.94 119.38 270)
 		(fields_autoplaced yes)
@@ -4251,6 +4521,17 @@
 		)
 		(uuid "e7539c2a-c079-440a-b380-ef92028774fa")
 	)
+	(label "D+"
+		(at 45.72 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e809be79-3511-4993-98a1-a62150942751")
+	)
 	(label "+5V_USB"
 		(at 175.26 119.38 270)
 		(fields_autoplaced yes)
@@ -4272,6 +4553,17 @@
 			(justify right bottom)
 		)
 		(uuid "f24aca6a-5ac5-4d70-aa17-bf0df1859519")
+	)
+	(label "D-"
+		(at 45.72 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb7d10e4-1189-4f46-9d9d-eeb43a6fae5f")
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C")
@@ -4357,7 +4649,7 @@
 			)
 		)
 		(property "Purpose" "Output filtering  capacitor."
-			(at 120.65 83.82 90)
+			(at 129.54 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5526,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "100 uF"
 			(at 105.41 58.42 90)
 			(effects
 				(font
@@ -5300,7 +5592,7 @@
 			)
 		)
 		(property "Purpose" "High-Frequency Bypass Capacitor"
-			(at 93.98 54.61 90)
+			(at 85.09 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5984,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 97.79 0)
+		(at 102.87 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5701,7 +5993,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c9aa1b3-1b79-4c09-9c1c-acda5d110338")
 		(property "Reference" "#PWR01"
-			(at 102.87 104.14 0)
+			(at 102.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +6002,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 102.87 0)
+			(at 102.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +6010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 97.79 0)
+			(at 102.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +6019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 97.79 0)
+			(at 102.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +6028,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 97.79 0)
+			(at 102.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,7 +6132,7 @@
 			)
 		)
 		(property "Purpose" "Input filtering  capacitor."
-			(at 88.9 93.98 0)
+			(at 96.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,6 +7076,120 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Capacitor:C_Polarized")
+		(at 77.47 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98ea2976-cdd2-45f2-a169-567a15393304")
+		(property "Reference" "C9"
+			(at 72.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 uF"
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 78.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-00000"
+			(at 77.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1kV"
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "100%"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Bulk Capacitor"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Instructions and notes" ""
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e31c9fdd-2af8-451a-a558-da41891a5b5e")
+		)
+		(pin "2"
+			(uuid "c5bac88b-67ad-4466-8c50-89d6191918d9")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
 		(at 102.87 76.2 0)
 		(unit 1)
@@ -7067,7 +7473,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 115.57 62.23 0)
+		(at 115.57 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7076,7 +7482,7 @@
 		(fields_autoplaced yes)
 		(uuid "b811fd7f-fc34-4552-bc1f-aedd1eefdd5d")
 		(property "Reference" "#PWR07"
-			(at 115.57 66.04 0)
+			(at 115.57 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +7491,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 115.57 58.42 0)
+			(at 115.57 57.15 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7094,7 +7500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 62.23 0)
+			(at 115.57 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 62.23 0)
+			(at 115.57 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 115.57 62.23 0)
+			(at 115.57 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +8479,7 @@
 	)
 	(sheet
 		(at 38.1 149.86)
-		(size 26.035 27.305)
+		(size 25.4 27.305)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -8100,6 +8506,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "D-" input
+			(at 63.5 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c3ddd1ca-609a-491d-b21e-98282c82cf14")
+		)
+		(pin "D+" input
+			(at 63.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0e39b1d6-90cf-4934-be89-d934c6bd3cc9")
 		)
 		(instances
 			(project "ESP32 sensor board"
