@@ -18,3 +18,28 @@ node_modules/
 *.bak
 *.cache
 
+# KiCad backup and temporary files
+*.bak
+*.b#?
+*.kicad_pcb-bak
+*.autosave
+*.tmp
+*.lock
+*.lck
+
+# Simulation data
+*.raw
+*.spice
+*.plt
+
+# User-specific settings
+*.kicad_prl
+
+# Symbol and footprint library cache
+sym-lib-table
+fp-lib-table
+*.dcm
+
+# Generated output folders
+fabrication/
+manufacturing/
