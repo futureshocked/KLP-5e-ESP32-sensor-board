@@ -1,0 +1,20 @@
+ESP32 sensor board-backups/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+._*
+.Spotlight-V100
+.Trashes
+
+# Git-related files
+.git/
+*.orig
+
+# Other files
+node_modules/
+*.log
+*.tmp
+*.bak
+*.cache
+
