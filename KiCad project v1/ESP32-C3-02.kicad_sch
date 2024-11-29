@@ -3380,7 +3380,7 @@
 		)
 	)
 	(junction
-		(at 43.18 166.37)
+		(at 78.74 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08a3e4e5-995d-41c2-bcaa-7ce037648bbc")
@@ -3452,13 +3452,13 @@
 		(uuid "75131692-82a2-4adf-bb3e-8d7e93a7e655")
 	)
 	(junction
-		(at 116.84 158.75)
+		(at 152.4 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d874b3b-e43c-4f19-9039-78efe1c9c40b")
 	)
 	(junction
-		(at 116.84 173.99)
+		(at 152.4 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "879df204-6f10-42ae-b255-69b09752f548")
@@ -3516,10 +3516,6 @@
 		(uuid "2434956b-c861-4c16-8ba7-5b0c6e7adc8c")
 	)
 	(no_connect
-		(at 203.2 44.45)
-		(uuid "44280294-cad7-44e5-a5a3-25c9d5698afb")
-	)
-	(no_connect
 		(at 203.2 49.53)
 		(uuid "5ed881e5-60b4-41f6-9936-0a189aedf1e8")
 	)
@@ -3540,24 +3536,12 @@
 		(uuid "9f453e08-1fee-4801-a577-9a29f3ea731b")
 	)
 	(no_connect
-		(at 203.2 36.83)
-		(uuid "a6584407-aa2f-4034-ada2-85f987c29a2a")
-	)
-	(no_connect
 		(at 97.79 100.33)
 		(uuid "a66e602c-6d1e-4e9e-a13d-c1b72c0e0217")
 	)
 	(no_connect
-		(at 203.2 39.37)
-		(uuid "bee7b039-f16d-4508-b49d-56f513633d33")
-	)
-	(no_connect
 		(at 97.79 92.71)
 		(uuid "d841a433-58ca-4b2e-8d75-bcf0ec367262")
-	)
-	(no_connect
-		(at 203.2 46.99)
-		(uuid "db0ddaf0-37a7-4c6e-9043-efb2a250fe14")
 	)
 	(no_connect
 		(at 97.79 97.79)
@@ -3639,7 +3623,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 158.75) (xy 116.84 158.75)
+			(xy 146.05 158.75) (xy 152.4 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3779,7 +3763,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 171.45) (xy 59.69 171.45)
+			(xy 92.71 171.45) (xy 95.25 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3809,7 +3793,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 161.29) (xy 74.93 161.29)
+			(xy 102.87 161.29) (xy 110.49 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3909,7 +3893,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 166.37) (xy 74.93 166.37)
+			(xy 78.74 166.37) (xy 110.49 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3929,7 +3913,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 158.75) (xy 116.84 153.67)
+			(xy 152.4 158.75) (xy 152.4 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3999,7 +3983,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 173.99) (xy 43.18 173.99)
+			(xy 110.49 173.99) (xy 78.74 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4019,7 +4003,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 166.37) (xy 43.18 158.75)
+			(xy 78.74 166.37) (xy 78.74 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4039,7 +4023,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 158.75) (xy 59.69 158.75)
+			(xy 92.71 158.75) (xy 95.25 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4079,7 +4063,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 158.75) (xy 74.93 158.75)
+			(xy 102.87 158.75) (xy 110.49 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4139,6 +4123,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 154.94) (xy 35.56 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3780bc-7e71-4ca0-97b4-705164eb63bf")
+	)
+	(wire
+		(pts
 			(xy 233.68 105.41) (xy 239.395 105.41)
 		)
 		(stroke
@@ -4166,6 +4160,16 @@
 			(type default)
 		)
 		(uuid "93c3b269-975a-4fff-b8dd-1025861b68cb")
+	)
+	(wire
+		(pts
+			(xy 31.75 165.1) (xy 35.56 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f0dbc2-a865-4f6e-9df8-945b6009f7c8")
 	)
 	(wire
 		(pts
@@ -4209,7 +4213,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 173.99) (xy 116.84 176.53)
+			(xy 152.4 173.99) (xy 152.4 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4219,7 +4223,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 170.18) (xy 116.84 173.99)
+			(xy 152.4 170.18) (xy 152.4 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4259,6 +4263,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 170.18) (xy 35.56 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0088ce-d2b0-434f-b2bd-c886252784ea")
+	)
+	(wire
+		(pts
 			(xy 82.55 31.75) (xy 82.55 41.91)
 		)
 		(stroke
@@ -4289,7 +4303,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 168.91) (xy 59.69 168.91)
+			(xy 92.71 168.91) (xy 95.25 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4319,7 +4333,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 171.45) (xy 74.93 171.45)
+			(xy 102.87 171.45) (xy 110.49 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4329,7 +4343,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 173.99) (xy 43.18 166.37)
+			(xy 78.74 173.99) (xy 78.74 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4369,7 +4383,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 173.99) (xy 116.84 173.99)
+			(xy 146.05 173.99) (xy 152.4 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4439,7 +4453,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 161.29) (xy 59.69 161.29)
+			(xy 92.71 161.29) (xy 95.25 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4479,7 +4493,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 168.91) (xy 74.93 168.91)
+			(xy 102.87 168.91) (xy 110.49 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4526,6 +4540,16 @@
 			(type default)
 		)
 		(uuid "f25eab53-0182-4d12-94df-495753a03a80")
+	)
+	(wire
+		(pts
+			(xy 31.75 158.75) (xy 35.56 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29b4c23-0f89-4796-86a3-06d9470e6e6d")
 	)
 	(wire
 		(pts
@@ -4629,7 +4653,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 158.75) (xy 116.84 162.56)
+			(xy 152.4 158.75) (xy 152.4 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4638,8 +4662,8 @@
 		(uuid "ffff172e-6ae8-4537-8df5-029df9cf1e1f")
 	)
 	(rectangle
-		(start 37.465 137.16)
-		(end 132.715 191.135)
+		(start 73.025 137.16)
+		(end 168.275 191.135)
 		(stroke
 			(width 0)
 			(type default)
@@ -4675,7 +4699,7 @@
 	)
 	(text_box "Disable write protection and the \"hold\" feature by connecting WP and HOLD to 3.3V."
 		(exclude_from_sim no)
-		(at 54.61 175.895 0)
+		(at 90.17 175.895 0)
 		(size 16.51 10.16)
 		(stroke
 			(width -0.0001)
@@ -4715,7 +4739,7 @@
 	)
 	(text_box "These 50 Ohm resistors help to reduce ringing in high SPI frequencies. \nThey are not really necessary in this design, but adding them for completness."
 		(exclude_from_sim no)
-		(at 53.34 144.145 0)
+		(at 88.9 144.145 0)
 		(size 24.765 10.16)
 		(stroke
 			(width -0.0001)
@@ -4755,7 +4779,7 @@
 	)
 	(text "Flash memory"
 		(exclude_from_sim no)
-		(at 44.45 133.35 0)
+		(at 80.01 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4784,7 +4808,7 @@
 		(uuid "d84c5a99-d9c3-45f7-a5d5-510b918d6251")
 	)
 	(label "MISO_DO"
-		(at 57.15 171.45 180)
+		(at 92.71 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4793,6 +4817,17 @@
 			(justify right bottom)
 		)
 		(uuid "032ce73c-aa1d-4a0a-95de-efa98af5a459")
+	)
+	(label "PHOTO_C"
+		(at 203.2 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "074e6b9a-937e-415c-ad41-fb0a34655f7d")
 	)
 	(label "MISO_DO"
 		(at 246.38 102.87 0)
@@ -4816,8 +4851,19 @@
 		)
 		(uuid "0ca12193-ea6a-4ceb-ab32-4b8f825fd108")
 	)
+	(label "SDA"
+		(at 31.75 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "118fb59b-26ff-476f-9730-cfbd68fd4bb4")
+	)
 	(label "CS"
-		(at 57.15 158.75 180)
+		(at 92.71 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4849,8 +4895,19 @@
 		)
 		(uuid "436445ff-7f37-4b71-8f23-a0988164a210")
 	)
+	(label "SDA"
+		(at 203.2 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47b1d577-5c6e-4c31-bba8-a95fc7f48a95")
+	)
 	(label "SCLK"
-		(at 57.15 161.29 180)
+		(at 92.71 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4872,7 +4929,7 @@
 		(uuid "52c46ed4-e65d-4a15-b6a2-31831022820d")
 	)
 	(label "MOSI_DI"
-		(at 57.15 168.91 180)
+		(at 92.71 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4881,6 +4938,17 @@
 			(justify right bottom)
 		)
 		(uuid "5417c15d-a8ca-4d3a-88a1-7ce7280adc01")
+	)
+	(label "SCL"
+		(at 203.2 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65531bc9-3e34-4a76-bcef-0b83b664bb68")
 	)
 	(label "TX_RX"
 		(at 97.79 67.31 0)
@@ -4892,6 +4960,17 @@
 			(justify left bottom)
 		)
 		(uuid "6a7c855d-2f32-47ae-a920-7647ee09e6b5")
+	)
+	(label "MIC_OUT"
+		(at 203.2 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d6b121b-611b-4273-8c66-26c70e5030a6")
 	)
 	(label "SCLK"
 		(at 203.2 52.07 180)
@@ -4926,6 +5005,28 @@
 		)
 		(uuid "79a82f23-388e-4e8e-9869-76cb67cd4c7f")
 	)
+	(label "PHOTO_C"
+		(at 31.75 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95816d48-61f7-42ba-9592-9e0566f690ea")
+	)
+	(label "MIC_OUT"
+		(at 31.75 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98de7782-6a22-42ba-ad43-139e768d9590")
+	)
 	(label "CS_SD"
 		(at 238.76 41.91 0)
 		(fields_autoplaced yes)
@@ -4958,6 +5059,17 @@
 			(justify right bottom)
 		)
 		(uuid "cbb88888-f267-48fc-8219-c367196126ff")
+	)
+	(label "SCL"
+		(at 31.75 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc27b469-39dd-4eda-9f84-048e4b9161a4")
 	)
 	(label "SCLK"
 		(at 181.61 105.41 180)
@@ -5148,7 +5260,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 171.45 90)
+		(at 99.06 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5156,7 +5268,7 @@
 		(dnp no)
 		(uuid "01bc127a-9ac6-49bc-9a9e-e462b75aa9fc")
 		(property "Reference" "R25"
-			(at 68.58 172.72 90)
+			(at 104.14 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5164,7 +5276,7 @@
 			)
 		)
 		(property "Value" "50 Ohm"
-			(at 63.5 167.64 90)
+			(at 99.06 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +5285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 173.228 90)
+			(at 99.06 173.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,7 +5294,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 171.45 0)
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +5303,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 171.45 0)
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +5312,7 @@
 			)
 		)
 		(property "Purpose" "Help reduce ringing in high-speed SPI."
-			(at 63.5 171.45 0)
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,7 +5321,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 63.5 171.45 0)
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5829,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 176.53 0)
+		(at 152.4 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5726,7 +5838,7 @@
 		(fields_autoplaced yes)
 		(uuid "3db70357-20ce-427d-a7cd-94bc11abb723")
 		(property "Reference" "#PWR028"
-			(at 116.84 182.88 0)
+			(at 152.4 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5847,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 181.61 0)
+			(at 152.4 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +5855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 176.53 0)
+			(at 152.4 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +5864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 176.53 0)
+			(at 152.4 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,7 +5873,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 176.53 0)
+			(at 152.4 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +6449,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 158.75 90)
+		(at 99.06 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6345,7 +6457,7 @@
 		(dnp no)
 		(uuid "6c28c436-093e-4cf1-8220-e40a1efa0c07")
 		(property "Reference" "R22"
-			(at 68.58 157.48 90)
+			(at 104.14 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6465,7 @@
 			)
 		)
 		(property "Value" "50 Ohm"
-			(at 63.5 154.94 90)
+			(at 99.06 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 160.528 90)
+			(at 99.06 160.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,7 +6483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 158.75 0)
+			(at 99.06 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,7 +6492,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 158.75 0)
+			(at 99.06 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,7 +6501,7 @@
 			)
 		)
 		(property "Purpose" "Help reduce ringing in high-speed SPI."
-			(at 63.5 158.75 0)
+			(at 99.06 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6398,7 +6510,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 63.5 158.75 0)
+			(at 99.06 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +6535,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 161.29 90)
+		(at 99.06 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6431,7 +6543,7 @@
 		(dnp no)
 		(uuid "713548eb-aa89-4e86-b0da-227e79596c04")
 		(property "Reference" "R23"
-			(at 68.58 162.56 90)
+			(at 104.14 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6551,7 @@
 			)
 		)
 		(property "Value" "50 Ohm"
-			(at 63.5 157.48 90)
+			(at 99.06 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 163.068 90)
+			(at 99.06 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,7 +6569,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 161.29 0)
+			(at 99.06 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,7 +6578,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 161.29 0)
+			(at 99.06 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6587,7 @@
 			)
 		)
 		(property "Purpose" "Help reduce ringing in high-speed SPI."
-			(at 63.5 161.29 0)
+			(at 99.06 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +6596,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 63.5 161.29 0)
+			(at 99.06 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8263,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 168.91 90)
+		(at 99.06 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8159,7 +8271,7 @@
 		(dnp no)
 		(uuid "c1397673-038c-4f24-ad54-e927b9bc26f8")
 		(property "Reference" "R24"
-			(at 68.58 167.64 90)
+			(at 104.14 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,7 +8279,7 @@
 			)
 		)
 		(property "Value" "50 Ohm"
-			(at 63.5 165.1 90)
+			(at 99.06 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 170.688 90)
+			(at 99.06 170.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,7 +8297,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 168.91 0)
+			(at 99.06 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,7 +8306,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 168.91 0)
+			(at 99.06 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +8315,7 @@
 			)
 		)
 		(property "Purpose" "Help reduce ringing in high-speed SPI."
-			(at 63.5 168.91 0)
+			(at 99.06 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8212,7 +8324,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 63.5 168.91 0)
+			(at 99.06 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9079,7 +9191,7 @@
 	)
 	(symbol
 		(lib_id "W25Q32JVSSIQ:W25Q32JVSSIQ")
-		(at 92.71 166.37 0)
+		(at 128.27 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9088,7 +9200,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb6d2e62-6b37-49b7-9248-c71c61da98fd")
 		(property "Reference" "U5"
-			(at 92.71 151.13 0)
+			(at 128.27 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +9208,7 @@
 			)
 		)
 		(property "Value" "W25Q32JVSSIQ"
-			(at 92.71 153.67 0)
+			(at 128.27 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9104,7 +9216,7 @@
 			)
 		)
 		(property "Footprint" "W25Q32JVSSIQ:SOIC127P790X216-8N"
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9114,7 +9226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9123,7 +9235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9132,7 +9244,7 @@
 			)
 		)
 		(property "SHOP" ""
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,7 +9254,7 @@
 			)
 		)
 		(property "MF" "Winbond"
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9152,7 +9264,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 133 MHz 8-SOIC\n                        \n"
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9162,7 +9274,7 @@
 			)
 		)
 		(property "Package" "SOIC-8 Winbond"
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9172,7 +9284,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9182,7 +9294,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond+Electronics/view-part/?ref=snap"
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9192,7 +9304,7 @@
 			)
 		)
 		(property "MP" "W25Q32JVSSIQ"
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9314,7 @@
 			)
 		)
 		(property "M_PART_NUMBER" "W25QXX"
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9212,7 +9324,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9334,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond+Electronics/view-part/?ref=eda"
-			(at 92.71 166.37 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +9464,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 116.84 153.67 0)
+		(at 152.4 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9361,7 +9473,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed66c1fc-e198-42c6-a85b-56cb7bc25711")
 		(property "Reference" "#PWR027"
-			(at 116.84 157.48 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,7 +9482,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 116.84 149.86 0)
+			(at 152.4 149.86 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9379,7 +9491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 153.67 0)
+			(at 152.4 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9388,7 +9500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 153.67 0)
+			(at 152.4 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9397,7 +9509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 116.84 153.67 0)
+			(at 152.4 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,7 +9531,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 43.18 158.75 0)
+		(at 78.74 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9428,7 +9540,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef48af64-bb12-44ae-b145-e43566298218")
 		(property "Reference" "#PWR029"
-			(at 43.18 162.56 0)
+			(at 78.74 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +9549,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 43.18 154.94 0)
+			(at 78.74 154.94 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9446,7 +9558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 158.75 0)
+			(at 78.74 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +9567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 158.75 0)
+			(at 78.74 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +9576,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 43.18 158.75 0)
+			(at 78.74 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9769,7 +9881,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C")
-		(at 116.84 166.37 0)
+		(at 152.4 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9777,7 +9889,7 @@
 		(dnp no)
 		(uuid "f912e2fe-f438-4bca-b9e4-ce2493cad2d9")
 		(property "Reference" "C13"
-			(at 118.11 163.83 0)
+			(at 153.67 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9786,7 +9898,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 118.11 168.91 0)
+			(at 153.67 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9795,7 +9907,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 117.8052 177.8 0)
+			(at 153.3652 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9804,7 +9916,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 118.11 182.88 0)
+			(at 153.67 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +9925,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 116.84 166.37 0)
+			(at 152.4 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9822,7 +9934,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 116.84 180.34 0)
+			(at 152.4 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9831,7 +9943,7 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 120.65 167.6399 0)
+			(at 156.21 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9841,7 +9953,7 @@
 			)
 		)
 		(property "Tolerance" "100%"
-			(at 120.65 170.1799 0)
+			(at 156.21 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9851,7 +9963,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling  capacitor."
-			(at 121.92 172.72 90)
+			(at 157.48 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9860,7 +9972,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 116.84 166.37 0)
+			(at 152.4 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9879,6 +9991,84 @@
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
 					(reference "C13")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 146.05)
+		(size 29.21 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "23dfbcac-c55b-465d-b248-a44c230046f1")
+		(property "Sheetname" "Sensors"
+			(at 35.56 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 35.56 184.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 35.56 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b9ab650-c09a-4673-9cbd-502388a7462c")
+		)
+		(pin "SDA" bidirectional
+			(at 35.56 158.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0f8219b7-9599-4a5e-995c-6f5f3e61159b")
+		)
+		(pin "PHOTO_C" output
+			(at 35.56 165.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "23c3be0a-354c-48f2-8452-3a1e455be64c")
+		)
+		(pin "mic_out" output
+			(at 35.56 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1d502ea9-33ff-44ce-8146-1218d82b581d")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
+					(page "3")
 				)
 			)
 		)

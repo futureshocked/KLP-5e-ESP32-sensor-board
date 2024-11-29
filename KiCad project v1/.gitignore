@@ -6,6 +6,7 @@ ESP32 sensor board-backups/
 ._*
 .Spotlight-V100
 .Trashes
+*.DS_Store
 
 # Git-related files
 .git/
