@@ -3580,6 +3580,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 142.24) (xy 120.65 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226f59dd-51ef-4dd5-a577-c18387532bed")
+	)
+	(wire
+		(pts
 			(xy 209.55 38.1) (xy 203.2 38.1)
 		)
 		(stroke
@@ -3587,6 +3597,16 @@
 			(type default)
 		)
 		(uuid "24d99053-9e84-4b1a-9305-f6f4a49b08b0")
+	)
+	(wire
+		(pts
+			(xy 140.97 142.24) (xy 140.97 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274f4342-0fce-4cc2-8850-0cfb3502becf")
 	)
 	(wire
 		(pts
@@ -3657,6 +3677,16 @@
 			(type default)
 		)
 		(uuid "44d12821-87d4-4533-97e7-a9f5452df956")
+	)
+	(wire
+		(pts
+			(xy 106.68 142.24) (xy 106.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46431b15-4847-4712-bec8-ff5b31de1279")
 	)
 	(wire
 		(pts
@@ -4000,6 +4030,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 142.24) (xy 140.97 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9817d269-ee8b-4ee1-9f9e-b1fc37f60f67")
+	)
+	(wire
+		(pts
 			(xy 44.45 125.73) (xy 54.61 125.73)
 		)
 		(stroke
@@ -4330,6 +4370,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 142.24) (xy 113.03 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a14893-bc9d-41e5-b447-ccf0da6caed5")
+	)
+	(wire
+		(pts
 			(xy 220.98 86.36) (xy 231.14 86.36)
 		)
 		(stroke
@@ -4407,6 +4457,16 @@
 			(type default)
 		)
 		(uuid "fbbdbe46-ab5a-4bfb-901d-11c818e1667a")
+	)
+	(text "Power LEDs"
+		(exclude_from_sim no)
+		(at 124.46 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3367a6eb-a33f-4c84-b6fd-f98af00257fb")
 	)
 	(label "+5V_USB"
 		(at 139.7 68.58 270)
@@ -5247,6 +5307,151 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-LED:LED_Red_0603")
+		(at 116.84 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f491eb3-ff43-47b4-8638-b894bf6b731e")
+		(property "Reference" "D11"
+			(at 119.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Red"
+			(at 115.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+			(at 116.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
+			(at 118.11 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 116.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-17976"
+			(at 116.84 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9844ccc2-a54f-43ff-a3d7-ae315c40ebac")
+		)
+		(pin "1"
+			(uuid "38a32c50-8a75-4b2b-bb59-04bf6830b031")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 106.68 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20503c53-6493-49b4-a6db-79caad2bf2b6")
+		(property "Reference" "#PWR030"
+			(at 106.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 106.68 133.35 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4944dfc-16c0-497f-a3ef-d23b59610779")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Capacitor:C")
 		(at 148.59 59.69 0)
 		(unit 1)
@@ -5511,6 +5716,72 @@
 			(project "ESP32 sensor board"
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29dc2876-b54d-4aae-84c1-008475d76b8a")
+		(property "Reference" "#PWR031"
+			(at 140.97 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "630fe654-6a5a-450a-b0ef-7b3516cd125d")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6051,6 +6322,94 @@
 			(project ""
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f072c03-5d38-42d7-a826-6c015409a67d")
+		(property "Reference" "R26"
+			(at 123.19 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330 Ohm"
+			(at 128.27 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 129.54 140.462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Current limiting"
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Instructions and notes" ""
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3962013-517d-454d-a0ae-576635af3c9c")
+		)
+		(pin "1"
+			(uuid "684b8521-0cf6-482f-b347-a0895419ba12")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
+					(reference "R26")
 					(unit 1)
 				)
 			)
