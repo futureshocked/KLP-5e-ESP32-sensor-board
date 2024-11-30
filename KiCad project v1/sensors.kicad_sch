@@ -5,6 +5,430 @@
 	(uuid "490a4169-5176-49ae-a83e-aaee45074fe4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "B4B-XH-AM__LF__SN_:B4B-XH-AM__LF__SN_"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B4B-XH-AM__LF__SN_"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B4B-XH-AM__LF__SN_:JST_B4B-XH-AM__LF__SN_"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/B4B-XH-AM%20(LF)(SN)/JST/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/B4B-XH-AM%20(LF)(SN)/JST/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "JST Corporation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "B4B-XH-AM (LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Conn Shrouded Header HDR 4 POS 2.5mm Solder ST Top Entry Thru-Hole Box\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "B4B-XH-AM (LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B4B-XH-AM__LF__SN__0_0"
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 1.905 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 -5.3975)
+					(end 2.2225 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -2.8575)
+					(end 2.2225 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -0.3175)
+					(end 2.2225 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 2.2225)
+					(end 2.2225 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "BME280:BME280"
 			(pin_names
 				(offset 1.016)
@@ -49,16 +473,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Bosch"
+			(property "Description" "Integrated pressure, humidity and temperature sensor; 8-pin 2.5x2.5x0.93mm LGA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +483,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "Integrated pressure, humidity and temperature sensor; 8-pin 2.5x2.5x0.93mm LGA"
+			(property "MF" "Bosch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1866,6 +2281,12 @@
 		(uuid "c099bfe3-cdd5-4a3d-84f0-b579e93717a5")
 	)
 	(junction
+		(at 162.56 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8ad1d4c-a1d8-4241-8640-fb5a99e4cf4b")
+	)
+	(junction
 		(at 143.51 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1888,12 +2309,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db32d713-2fff-4a15-afd3-0a6ccc1c4474")
-	)
-	(junction
-		(at 161.29 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7009e49-0a02-41b6-a94b-4d61108f9f61")
 	)
 	(wire
 		(pts
@@ -1967,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 116.84) (xy 161.29 116.84)
+			(xy 156.21 116.84) (xy 162.56 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2057,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 111.76) (xy 161.29 116.84)
+			(xy 162.56 111.76) (xy 162.56 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2114,6 +2529,16 @@
 			(type default)
 		)
 		(uuid "4e4fdb81-960c-4b8a-8185-5ecea7dbebe0")
+	)
+	(wire
+		(pts
+			(xy 41.91 110.49) (xy 48.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff2d442-fba7-4c70-af7f-68b4762ae9e7")
 	)
 	(wire
 		(pts
@@ -2267,6 +2692,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 115.57) (xy 46.99 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eed2738-9a0d-4d83-94c2-2cdf3d6186a6")
+	)
+	(wire
+		(pts
 			(xy 90.17 62.23) (xy 87.63 62.23)
 		)
 		(stroke
@@ -2304,6 +2739,16 @@
 			(type default)
 		)
 		(uuid "817155a9-2c9d-4136-b163-cf469765dce3")
+	)
+	(wire
+		(pts
+			(xy 41.91 113.03) (xy 48.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8234a6e9-ee51-46b7-bc50-27cd2d9dba44")
 	)
 	(wire
 		(pts
@@ -2357,6 +2802,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 107.95) (xy 46.99 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fee0f4-0e5d-494c-9b8b-434e89b9e52f")
+	)
+	(wire
+		(pts
 			(xy 93.98 62.23) (xy 90.17 62.23)
 		)
 		(stroke
@@ -2387,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 99.695) (xy 161.29 104.14)
+			(xy 162.56 99.695) (xy 162.56 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2427,6 +2882,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 116.84) (xy 166.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfdbe46-129d-43e9-b6d7-aac135a96604")
+	)
+	(wire
+		(pts
+			(xy 46.99 107.95) (xy 46.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc64d955-442d-453f-8453-b5275d9ad98c")
+	)
+	(wire
+		(pts
 			(xy 201.93 127) (xy 210.82 127)
 		)
 		(stroke
@@ -2434,16 +2909,6 @@
 			(type default)
 		)
 		(uuid "bedf7582-ee12-477d-92a5-22b480ddb6b8")
-	)
-	(wire
-		(pts
-			(xy 161.29 116.84) (xy 166.37 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0329abc-53bf-48f8-bd0d-e3f49d199618")
 	)
 	(wire
 		(pts
@@ -2477,6 +2942,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 115.57) (xy 46.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25ea7ed-b80d-46a7-be8e-66303da5a934")
+	)
+	(wire
+		(pts
 			(xy 143.51 116.84) (xy 148.59 116.84)
 		)
 		(stroke
@@ -2487,7 +2962,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 99.695) (xy 205.105 99.695)
+			(xy 162.56 99.695) (xy 205.105 99.695)
 		)
 		(stroke
 			(width 0)
@@ -2554,6 +3029,18 @@
 			(type default)
 		)
 		(uuid "fb5e8198-b321-448f-b8d6-1414b1b196e6")
+	)
+	(rectangle
+		(start 27.305 90.805)
+		(end 91.44 136.525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 85173004-4b45-47b2-9ea2-840dbb0f112e)
 	)
 	(rectangle
 		(start 166.37 24.13)
@@ -2641,6 +3128,16 @@
 		)
 		(uuid "6b74eec9-8fc1-447e-933e-f0cdf4fa43eb")
 	)
+	(text "OLED display connector (I2C)"
+		(exclude_from_sim no)
+		(at 39.37 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c35733e0-234a-41ef-b7a0-2be9dd01e0c1")
+	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 27.94 57.15 180)
@@ -2676,6 +3173,30 @@
 			(justify right)
 		)
 		(uuid "24830222-c696-490c-9d32-423e286ccab2")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 41.91 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5df60e61-6ce2-4708-9ae3-672715a1af8e")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 41.91 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6e79bf4-ac7f-4282-b412-93b70a80d81f")
 	)
 	(hierarchical_label "mic_out"
 		(shape output)
@@ -3523,6 +4044,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 46.99 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75368668-237f-4fc8-9222-0bfd0afb8f65")
+		(property "Reference" "#PWR045"
+			(at 46.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa5a2cae-ef05-4f3e-9c4f-3b783edd803a")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853/23dfbcac-c55b-465d-b248-a44c230046f1"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 151.13 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3582,6 +4169,73 @@
 			(project "ESP32 sensor board"
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853/23dfbcac-c55b-465d-b248-a44c230046f1"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 46.99 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dc14cfd-6fda-4fd0-89ff-da6415a1b303")
+		(property "Reference" "#PWR044"
+			(at 46.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 46.99 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4a29447-fe88-49c9-ab82-626b9cb6eee9")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853/23dfbcac-c55b-465d-b248-a44c230046f1"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3959,7 +4613,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C")
-		(at 161.29 107.95 180)
+		(at 162.56 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3967,7 +4621,7 @@
 		(dnp no)
 		(uuid "acd2bdb8-6fad-4f83-8a0d-937ae839185d")
 		(property "Reference" "C19"
-			(at 165.1 110.49 0)
+			(at 166.37 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +4630,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 167.64 105.41 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +4639,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 160.3248 96.52 0)
+			(at 161.5948 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +4648,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 160.02 91.44 0)
+			(at 161.29 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +4657,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 161.29 107.95 0)
+			(at 162.56 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +4666,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 161.29 93.98 0)
+			(at 162.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +4675,7 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 157.48 106.6801 0)
+			(at 158.75 106.6801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +4685,7 @@
 			)
 		)
 		(property "Tolerance" "100%"
-			(at 157.48 104.1401 0)
+			(at 158.75 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4695,7 @@
 			)
 		)
 		(property "Purpose" "Input  capacitor."
-			(at 156.21 101.6 90)
+			(at 157.48 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,7 +4704,7 @@
 			)
 		)
 		(property "Instructions and notes" "To block DC offset"
-			(at 161.29 107.95 0)
+			(at 162.56 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,6 +5579,203 @@
 			(project "ESP32 sensor board"
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853/23dfbcac-c55b-465d-b248-a44c230046f1"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B4B-XH-AM__LF__SN_:B4B-XH-AM__LF__SN_")
+		(at 53.34 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb8c7947-a056-49d7-93b9-bbd54e3718c6")
+		(property "Reference" "J5"
+			(at 62.23 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B4B-XH-AM__LF__SN_"
+			(at 62.23 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B4B-XH-AM__LF__SN_:JST_B4B-XH-AM__LF__SN_"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B4B-XH-AM%20(LF)(SN)/JST/view-part/?ref=snap"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7mm"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/B4B-XH-AM%20(LF)(SN)/JST/view-part/?ref=eda"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Corporation"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "B4B-XH-AM (LF)(SN)"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Conn Shrouded Header HDR 4 POS 2.5mm Solder ST Top Entry Thru-Hole Box\n                        \n"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "B4B-XH-AM (LF)(SN)"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fee68e7f-b288-403a-8563-505f03afc470")
+		)
+		(pin "1"
+			(uuid "9c85f6fa-f6c7-42ee-8fe7-e52080579bd0")
+		)
+		(pin "4"
+			(uuid "e536f498-d271-4a0c-9224-f3f6d7d9d8e3")
+		)
+		(pin "2"
+			(uuid "cb0047ec-44fc-482c-ae8e-e55b9a6a7263")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853/23dfbcac-c55b-465d-b248-a44c230046f1"
+					(reference "J5")
 					(unit 1)
 				)
 			)

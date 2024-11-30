@@ -409,6 +409,10 @@
     [
       "23dfbcac-c55b-465d-b248-a44c230046f1",
       "Sensors"
+    ],
+    [
+      "9638f799-907f-4116-a2c8-fb3f1731f620",
+      "User interface"
     ]
   ],
   "text_variables": {}

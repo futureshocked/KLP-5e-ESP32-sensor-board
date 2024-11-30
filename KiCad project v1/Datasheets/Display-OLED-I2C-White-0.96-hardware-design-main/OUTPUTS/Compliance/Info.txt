@@ -1,0 +1,5 @@
+SKU: 333099
+Full product name: Display OLED I2C White 0.96" SSD1306
+Country of origin: Croatia
+HS tariff code: 85312020
+EAN/UPC barcode: 732388668403
