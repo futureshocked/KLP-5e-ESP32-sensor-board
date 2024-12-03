@@ -3399,6 +3399,12 @@
 		(uuid "218580a8-d3eb-432d-abff-04f2d10978aa")
 	)
 	(junction
+		(at 49.53 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "327c8d3c-57fe-4702-8445-9848cf4f6768")
+	)
+	(junction
 		(at 203.2 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3421,6 +3427,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a9a1f04-004d-4df1-9819-08bbb1470278")
+	)
+	(junction
+		(at 30.48 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5895ec1d-7499-4ccd-ae21-170e3ed9097e")
 	)
 	(junction
 		(at 184.15 38.1)
@@ -3463,10 +3475,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb29a3f2-5506-4044-86f8-f22393ad313b")
-	)
-	(no_connect
-		(at 22.86 91.44)
-		(uuid "1ca4cda0-37c1-47d6-928e-196596344784")
 	)
 	(wire
 		(pts
@@ -3630,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 62.23) (xy 53.34 62.23)
+			(xy 45.72 62.23) (xy 49.53 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3740,6 +3748,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 95.25) (xy 30.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "535cef8e-09d0-48e0-a8f4-19063d1e5b73")
+	)
+	(wire
+		(pts
 			(xy 91.44 49.53) (xy 119.38 49.53)
 		)
 		(stroke
@@ -3750,7 +3768,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 83.82) (xy 77.47 97.79)
+			(xy 77.47 80.01) (xy 77.47 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3830,6 +3848,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 62.23) (xy 53.34 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65efb4ff-28bb-40ac-9353-9ab024ce3a9e")
+	)
+	(wire
+		(pts
 			(xy 148.59 49.53) (xy 148.59 55.88)
 		)
 		(stroke
@@ -3890,7 +3918,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 62.23) (xy 77.47 76.2)
+			(xy 77.47 62.23) (xy 77.47 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4030,6 +4058,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 26.67) (xy 39.37 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9524fcd2-5c15-4e8c-94b8-ab5ade74b92b")
+	)
+	(wire
+		(pts
 			(xy 133.35 142.24) (xy 140.97 142.24)
 		)
 		(stroke
@@ -4160,6 +4198,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 41.91) (xy 49.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4b17d6-69f1-4c7e-b968-ca29bd9290d7")
+	)
+	(wire
+		(pts
 			(xy 220.98 66.04) (xy 226.06 66.04)
 		)
 		(stroke
@@ -4207,6 +4255,16 @@
 			(type default)
 		)
 		(uuid "b5d1a209-8fbf-46cc-8589-71174fabeed7")
+	)
+	(wire
+		(pts
+			(xy 49.53 34.29) (xy 49.53 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b761acab-33e5-4778-8cb7-32fabd278d82")
 	)
 	(wire
 		(pts
@@ -4350,6 +4408,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 26.67) (xy 39.37 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47b43bf-3458-4776-a781-1a927bf8305c")
+	)
+	(wire
+		(pts
 			(xy 154.94 105.41) (xy 154.94 110.49)
 		)
 		(stroke
@@ -4377,6 +4445,16 @@
 			(type default)
 		)
 		(uuid "e8a14893-bc9d-41e5-b447-ccf0da6caed5")
+	)
+	(wire
+		(pts
+			(xy 22.86 95.25) (xy 30.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d6aa33-8623-4e20-9b1c-d630374e1c16")
 	)
 	(wire
 		(pts
@@ -4430,7 +4508,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 91.44) (xy 30.48 101.6)
+			(xy 30.48 91.44) (xy 30.48 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4447,6 +4525,16 @@
 			(type default)
 		)
 		(uuid "f11f6391-5a94-47c8-8872-c63574af6d91")
+	)
+	(wire
+		(pts
+			(xy 22.86 91.44) (xy 22.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a14a81-cfc9-45b7-9e5e-39f88d69b263")
 	)
 	(wire
 		(pts
@@ -4535,7 +4623,7 @@
 		(uuid "c054c4da-a618-4554-9eec-12a1d03ff1e3")
 	)
 	(label "+5V_USB"
-		(at 90.17 62.23 90)
+		(at 86.36 62.23 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6416,6 +6504,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 39.37 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f502986-6276-4b9a-8960-85fde03189c5")
+		(property "Reference" "#PWR053"
+			(at 39.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d8a1a79-2b91-4e9a-8c16-77a29068c151")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Capacitor:C")
 		(at 91.44 87.63 0)
 		(unit 1)
@@ -7444,7 +7598,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C_Polarized")
-		(at 77.47 80.01 0)
+		(at 77.47 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7452,7 +7606,7 @@
 		(dnp no)
 		(uuid "98ea2976-cdd2-45f2-a169-567a15393304")
 		(property "Reference" "C9"
-			(at 72.39 77.47 0)
+			(at 72.39 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,7 +7615,7 @@
 			)
 		)
 		(property "Value" "100 uF"
-			(at 78.74 77.47 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,7 +7624,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 77.47 80.01 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +7633,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 78.74 95.25 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +7642,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 77.47 80.01 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +7651,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 77.47 92.71 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +7660,7 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 77.47 87.63 0)
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +7669,7 @@
 			)
 		)
 		(property "Tolerance" "100%"
-			(at 77.47 90.17 0)
+			(at 77.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +7678,7 @@
 			)
 		)
 		(property "Purpose" "Bulk Capacitor"
-			(at 83.82 83.82 0)
+			(at 83.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,7 +7687,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 77.47 80.01 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8439,6 +8593,112 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Capacitor:C")
+		(at 49.53 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4f85845-8c58-469f-abf6-82f59984d085")
+		(property "Reference" "C23"
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 43.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 50.4952 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 49.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-00000"
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1kV"
+			(at 53.34 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "100%"
+			(at 53.34 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Input filtering  capacitor."
+			(at 66.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4ce5759-e06e-4255-8c4d-2faeb54b9e04")
+		)
+		(pin "2"
+			(uuid "ceb1d903-f7e8-4aa4-a57a-49b55773a2bb")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 175.26 101.6 0)
 		(unit 1)
@@ -8878,7 +9138,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 194 194 194 0.3900)
 		)
 		(uuid "09ec4a32-ddff-43cd-8e21-9ef822101853")
 		(property "Sheetname" "ESP32-C3-02"

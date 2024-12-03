@@ -11,6 +11,7 @@ ESP32 sensor board-backups/
 # Git-related files
 .git/
 *.orig
+*auto_saved_files*
 
 # Other files
 node_modules/
