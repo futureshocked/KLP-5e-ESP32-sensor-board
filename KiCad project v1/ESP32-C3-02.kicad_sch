@@ -3428,7 +3428,7 @@
 		(uuid "32ef34e8-07fa-4150-a494-1526890eab69")
 	)
 	(junction
-		(at 267.335 101.6)
+		(at 267.97 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52fe3bba-e09c-4053-a09a-5d6935b9d7a6")
@@ -3446,7 +3446,7 @@
 		(uuid "6a7b4724-b05b-4e3c-9225-87ccdc1bcc03")
 	)
 	(junction
-		(at 267.335 121.92)
+		(at 267.97 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75131692-82a2-4adf-bb3e-8d7e93a7e655")
@@ -3482,7 +3482,7 @@
 		(uuid "a31a7471-b5f7-4a9f-90b8-0246551f4dfa")
 	)
 	(junction
-		(at 239.395 105.41)
+		(at 240.03 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c940827f-656d-4722-ada0-2ba307b89498")
@@ -3579,7 +3579,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 101.6) (xy 267.335 101.6)
+			(xy 270.51 101.6) (xy 267.97 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3669,7 +3669,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.335 121.92) (xy 270.51 121.92)
+			(xy 267.97 121.92) (xy 270.51 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3849,7 +3849,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 107.95) (xy 239.395 105.41)
+			(xy 240.03 107.95) (xy 240.03 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4079,7 +4079,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.335 97.79) (xy 267.335 101.6)
+			(xy 267.97 97.79) (xy 267.97 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4109,7 +4109,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 105.41) (xy 239.395 105.41)
+			(xy 233.68 105.41) (xy 240.03 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4169,7 +4169,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 97.79) (xy 267.335 97.79)
+			(xy 248.92 97.79) (xy 267.97 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4179,7 +4179,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 121.92) (xy 267.335 121.92)
+			(xy 264.16 121.92) (xy 267.97 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4249,7 +4249,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.335 123.19) (xy 252.73 123.19)
+			(xy 267.97 123.19) (xy 252.73 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4329,7 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.335 101.6) (xy 264.16 101.6)
+			(xy 267.97 101.6) (xy 264.16 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4369,7 +4369,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.335 121.92) (xy 267.335 123.19)
+			(xy 267.97 121.92) (xy 267.97 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4549,7 +4549,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 107.95) (xy 239.395 107.95)
+			(xy 233.68 107.95) (xy 240.03 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4649,7 +4649,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 105.41) (xy 252.73 105.41)
+			(xy 240.03 105.41) (xy 252.73 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5372,7 +5372,7 @@
 			)
 		)
 	)
-	(hierarchical_label "D+"
+	(hierarchical_label "USB_DP"
 		(shape input)
 		(at 54.61 85.09 180)
 		(fields_autoplaced yes)
@@ -5384,7 +5384,7 @@
 		)
 		(uuid "9a60a0e7-5c9b-47aa-b14e-28d2b0adfd49")
 	)
-	(hierarchical_label "D-"
+	(hierarchical_label "USB_DN"
 		(shape input)
 		(at 54.61 82.55 180)
 		(fields_autoplaced yes)
@@ -10127,7 +10127,7 @@
 			)
 			(uuid "23c3be0a-354c-48f2-8452-3a1e455be64c")
 		)
-		(pin "mic_out" output
+		(pin "MIC_OUT" output
 			(at 138.43 154.94 180)
 			(effects
 				(font
@@ -10135,7 +10135,7 @@
 				)
 				(justify left)
 			)
-			(uuid "1d502ea9-33ff-44ce-8146-1218d82b581d")
+			(uuid "850b1204-8ec5-4af0-a6e4-d23628967772")
 		)
 		(instances
 			(project "ESP32 sensor board"

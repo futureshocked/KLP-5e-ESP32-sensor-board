@@ -1510,6 +1510,12 @@
 		)
 	)
 	(junction
+		(at 154.94 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e3dbe9f-180f-438e-a515-6b74fd08bd08")
+	)
+	(junction
 		(at 195.58 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1528,16 +1534,10 @@
 		(uuid "667d7fab-3187-4efa-afc0-a9ce16c09958")
 	)
 	(junction
-		(at 155.575 128.27)
+		(at 157.48 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c489fe71-220d-4aee-b369-7e26e3809f6b")
-	)
-	(junction
-		(at 156.21 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d927e873-87a1-4a8e-9efa-c8b896c3acf2")
+		(uuid "ea78da13-ecff-4835-9b70-a1eadb13bc62")
 	)
 	(junction
 		(at 205.74 69.85)
@@ -1577,16 +1577,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 111.76) (xy 158.75 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a155645-f131-4170-862f-9d3d4ac7a26c")
-	)
-	(wire
-		(pts
 			(xy 144.78 62.23) (xy 144.78 68.58)
 		)
 		(stroke
@@ -1604,6 +1594,16 @@
 			(type default)
 		)
 		(uuid "175afd59-074e-4840-8af8-12412886d5b7")
+	)
+	(wire
+		(pts
+			(xy 157.48 111.76) (xy 158.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad7cf66-b859-4e87-8182-ca88ab450ac7")
 	)
 	(wire
 		(pts
@@ -1737,7 +1737,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 111.76) (xy 156.21 120.65)
+			(xy 157.48 111.76) (xy 157.48 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +1757,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 123.19) (xy 181.61 120.65)
+			(xy 154.94 128.27) (xy 158.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880e5cc6-9d5d-407f-8ad0-7534b979a1d3")
+	)
+	(wire
+		(pts
+			(xy 181.61 123.19) (xy 181.61 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1777,7 +1787,7 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 119.38) (xy 155.575 128.27)
+			(xy 154.94 119.38) (xy 154.94 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1787,7 +1797,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 119.38) (xy 155.575 119.38)
+			(xy 181.61 119.38) (xy 154.94 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1797,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 120.65) (xy 156.21 120.65)
+			(xy 181.61 121.92) (xy 157.48 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1807,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 128.27) (xy 155.575 128.27)
+			(xy 149.86 128.27) (xy 154.94 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1847,16 +1857,6 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 128.27) (xy 158.75 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad896c55-39cc-4d09-8a2f-8616e6a50c55")
-	)
-	(wire
-		(pts
 			(xy 195.58 63.5) (xy 195.58 69.85)
 		)
 		(stroke
@@ -1867,7 +1867,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 156.21 111.76)
+			(xy 149.86 111.76) (xy 157.48 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2205,6 +2205,25 @@
 			"AYsAGYtFg2EiQARKQYCMpRQYWQgRIAIWATIWiwbDRIAIlIIAGUspMLIQIkAELAJkLBYNhokAESgF"
 			"ATKWUmBkIUSACFgEyFgsGgwTASJQCgL/D/pWv/Oy6JIRAAAAAElFTkSuQmCC"
 		)
+	)
+	(text_box "To learn more about the boot mode selection,\nsee documentation at https://txplo.re/esp32boot"
+		(exclude_from_sim no)
+		(at 198.755 131.445 0)
+		(size 29.845 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c68aa48f-4a91-43be-9354-3729d8b4b1dd")
 	)
 	(text "OLED display connector (I2C)"
 		(exclude_from_sim no)

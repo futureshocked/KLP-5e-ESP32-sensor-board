@@ -1598,22 +1598,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -10.16 12.7 0)
+			(property "Reference" "J1"
+				(at 0 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "USB_C_Receptacle"
-				(at 19.05 12.7 0)
+				(at 0 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" "SparkFun-Connector:USB-C_16"
@@ -1643,6 +1641,15 @@
 					(hide yes)
 				)
 			)
+			(property "Instructions and notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "PROD_ID" "CONN-14122"
 				(at 1.27 -30.48 0)
 				(effects
@@ -1650,6 +1657,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
@@ -1995,7 +2010,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 3.81 -15.24 90)
+					(at 5.08 -15.24 90)
 					(length 5.08) hide
 					(name "NC"
 						(effects
@@ -2103,7 +2118,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -2.54 -15.24 90)
+					(at -3.81 -15.24 90)
 					(length 5.08) hide
 					(name "NC"
 						(effects
@@ -3429,10 +3444,10 @@
 		(uuid "4a9a1f04-004d-4df1-9819-08bbb1470278")
 	)
 	(junction
-		(at 30.48 95.25)
+		(at 30.48 94.9325)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5895ec1d-7499-4ccd-ae21-170e3ed9097e")
+		(uuid "6e29b359-bb06-4e34-95f8-f7b9b6e26337")
 	)
 	(junction
 		(at 184.15 38.1)
@@ -3478,6 +3493,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 155.2575) (xy 67.31 155.2575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0246314a-d5a8-451b-8550-1c35978bdf95")
+	)
+	(wire
+		(pts
 			(xy 203.2 49.53) (xy 203.2 53.34)
 		)
 		(stroke
@@ -3485,16 +3510,6 @@
 			(type default)
 		)
 		(uuid "03c784a0-6b2d-4bb6-bc4e-db56243949fc")
-	)
-	(wire
-		(pts
-			(xy 63.5 160.02) (xy 67.31 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d96df77-4b72-41da-9971-abe7ac7f2144")
 	)
 	(wire
 		(pts
@@ -3558,6 +3573,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 94.9325) (xy 30.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9458f8-4001-4313-814d-77e2f6d8b2fc")
+	)
+	(wire
+		(pts
 			(xy 139.7 49.53) (xy 127 49.53)
 		)
 		(stroke
@@ -3565,6 +3590,16 @@
 			(type default)
 		)
 		(uuid "1f7a2d02-631d-4317-af10-a5d32e40d90b")
+	)
+	(wire
+		(pts
+			(xy 63.5 160.02) (xy 67.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20884af5-cdb8-41fb-a135-cc659c05944c")
 	)
 	(wire
 		(pts
@@ -3625,6 +3660,16 @@
 			(type default)
 		)
 		(uuid "2814df8f-5a78-4a8d-9ab1-10770ee10ceb")
+	)
+	(wire
+		(pts
+			(xy 22.86 91.44) (xy 22.86 94.9325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2948e898-1047-4eb8-8276-352a4ee9e959")
 	)
 	(wire
 		(pts
@@ -3748,7 +3793,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 95.25) (xy 30.48 101.6)
+			(xy 30.48 91.44) (xy 30.48 94.9325)
 		)
 		(stroke
 			(width 0)
@@ -3955,16 +4000,6 @@
 			(type default)
 		)
 		(uuid "81556ef3-1c18-4fde-a047-dc9fb0e0af50")
-	)
-	(wire
-		(pts
-			(xy 63.5 156.21) (xy 67.31 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "820044b4-e4d0-4b6a-bea1-a6b2367048b5")
 	)
 	(wire
 		(pts
@@ -4358,6 +4393,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 94.9325) (xy 30.48 94.9325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6acce10-5100-4322-9b86-da1024c3ace9")
+	)
+	(wire
+		(pts
 			(xy 185.42 63.5) (xy 175.26 63.5)
 		)
 		(stroke
@@ -4448,16 +4493,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 95.25) (xy 30.48 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8d6aa33-8623-4e20-9b1c-d630374e1c16")
-	)
-	(wire
-		(pts
 			(xy 220.98 86.36) (xy 231.14 86.36)
 		)
 		(stroke
@@ -4508,16 +4543,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 91.44) (xy 30.48 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eef99f8d-8c27-44f6-b4b7-1dc10ba989f7")
-	)
-	(wire
-		(pts
 			(xy 45.72 82.55) (xy 52.07 82.55)
 		)
 		(stroke
@@ -4528,16 +4553,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 91.44) (xy 22.86 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1a14a81-cfc9-45b7-9e5e-39f88d69b263")
-	)
-	(wire
-		(pts
 			(xy 233.68 66.04) (xy 250.19 66.04)
 		)
 		(stroke
@@ -4545,6 +4560,25 @@
 			(type default)
 		)
 		(uuid "fbbdbe46-ab5a-4bfb-901d-11c818e1667a")
+	)
+	(text_box "See ESP32 S3 Dev Kit reference design:\nhttps://txplo.re/esp32s3ref"
+		(exclude_from_sim no)
+		(at 86.6775 181.9275 0)
+		(size 43.815 7.3025)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "917922d8-09c3-47f5-9ec5-48b2a0eeeb79")
 	)
 	(text "Power LEDs"
 		(exclude_from_sim no)
@@ -4600,7 +4634,7 @@
 		)
 		(uuid "6846de4d-1de8-4d7a-9937-21990b03d269")
 	)
-	(label "D+"
+	(label "USB_DP"
 		(at 67.31 160.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4644,8 +4678,8 @@
 		)
 		(uuid "cdacad95-4f9e-4b94-b17c-8b53ead7b708")
 	)
-	(label "D-"
-		(at 67.31 156.21 0)
+	(label "USB_DN"
+		(at 67.31 155.2575 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4677,7 +4711,7 @@
 		)
 		(uuid "e7539c2a-c079-440a-b380-ef92028774fa")
 	)
-	(label "D+"
+	(label "USB_DN"
 		(at 45.72 71.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4710,7 +4744,7 @@
 		)
 		(uuid "f24aca6a-5ac5-4d70-aa17-bf0df1859519")
 	)
-	(label "D-"
+	(label "USB_DP"
 		(at 45.72 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7457,6 +7491,24 @@
 				)
 			)
 		)
+		(property "Instructions and notes" ""
+			(at 30.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 30.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B7"
 			(uuid "b43d65bb-f0f5-4107-8082-0e931251769d")
 		)
@@ -9159,17 +9211,7 @@
 				(justify left top)
 			)
 		)
-		(pin "D-" input
-			(at 63.5 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c3ddd1ca-609a-491d-b21e-98282c82cf14")
-		)
-		(pin "D+" input
+		(pin "USB_DP" input
 			(at 63.5 160.02 0)
 			(effects
 				(font
@@ -9177,7 +9219,17 @@
 				)
 				(justify right)
 			)
-			(uuid "0e39b1d6-90cf-4934-be89-d934c6bd3cc9")
+			(uuid "719b81f8-a255-431d-a665-eabf51611128")
+		)
+		(pin "USB_DN" input
+			(at 63.5 155.2575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd4c9fa2-d343-4e7e-851b-7c8887ad6d3c")
 		)
 		(instances
 			(project "ESP32 sensor board"
