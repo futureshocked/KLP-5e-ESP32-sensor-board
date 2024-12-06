@@ -2575,7 +2575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1u"
 			(at 207.01 80.01 0)
 			(effects
 				(font
@@ -2691,7 +2691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1u"
 			(at 156.21 78.74 0)
 			(effects
 				(font
@@ -2940,7 +2940,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 KOhm"
+		(property "Value" "10K"
 			(at 198.12 60.9599 0)
 			(effects
 				(font
@@ -3160,7 +3160,7 @@
 				)
 			)
 		)
-		(property "Value" "10 K"
+		(property "Value" "10K"
 			(at 162.56 132.08 90)
 			(effects
 				(font
@@ -3465,7 +3465,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 KOhm"
+		(property "Value" "10K"
 			(at 147.32 59.6899 0)
 			(effects
 				(font
@@ -3552,7 +3552,7 @@
 				)
 			)
 		)
-		(property "Value" "10 K"
+		(property "Value" "10K"
 			(at 162.56 107.95 90)
 			(effects
 				(font

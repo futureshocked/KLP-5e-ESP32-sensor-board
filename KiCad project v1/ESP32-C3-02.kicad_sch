@@ -5413,7 +5413,7 @@
 				)
 			)
 		)
-		(property "Value" "50 Ohm"
+		(property "Value" "50"
 			(at 191.77 106.68 90)
 			(effects
 				(font
@@ -5499,7 +5499,7 @@
 				)
 			)
 		)
-		(property "Value" "50 Ohm"
+		(property "Value" "50"
 			(at 50.8 165.1 90)
 			(effects
 				(font
@@ -5982,7 +5982,7 @@
 				)
 			)
 		)
-		(property "Value" "50 Ohm"
+		(property "Value" "50"
 			(at 191.77 109.22 90)
 			(effects
 				(font
@@ -6134,7 +6134,7 @@
 				)
 			)
 		)
-		(property "Value" "50 Ohm"
+		(property "Value" "50"
 			(at 240.03 99.06 90)
 			(effects
 				(font
@@ -6517,7 +6517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22.1 KOhm"
+		(property "Value" "22K1"
 			(at 36.83 74.9299 0)
 			(effects
 				(font
@@ -6603,7 +6603,7 @@
 				)
 			)
 		)
-		(property "Value" "50 Ohm"
+		(property "Value" "50"
 			(at 50.8 152.4 90)
 			(effects
 				(font
@@ -6689,7 +6689,7 @@
 				)
 			)
 		)
-		(property "Value" "50 Ohm"
+		(property "Value" "50"
 			(at 50.8 154.94 90)
 			(effects
 				(font
@@ -7004,7 +7004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "10u"
 			(at 255.27 34.29 90)
 			(effects
 				(font
@@ -7119,7 +7119,7 @@
 				)
 			)
 		)
-		(property "Value" "1 KOhn"
+		(property "Value" "1K"
 			(at 199.39 62.23 90)
 			(effects
 				(font
@@ -7205,7 +7205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7 uF"
+		(property "Value" "4.7u"
 			(at 68.58 27.94 90)
 			(effects
 				(font
@@ -7320,7 +7320,7 @@
 				)
 			)
 		)
-		(property "Value" "1 KOhn"
+		(property "Value" "1K"
 			(at 198.12 54.61 90)
 			(effects
 				(font
@@ -7407,7 +7407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47.5 KOhm"
+		(property "Value" "47K5"
 			(at 36.83 87.6299 0)
 			(effects
 				(font
@@ -7561,7 +7561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330 Ohm"
+		(property "Value" "330"
 			(at 116.84 100.33 90)
 			(effects
 				(font
@@ -7716,7 +7716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1u"
 			(at 276.86 110.49 0)
 			(effects
 				(font
@@ -7832,7 +7832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "10u"
 			(at 264.16 110.49 0)
 			(effects
 				(font
@@ -8081,7 +8081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330 Ohm"
+		(property "Value" "330"
 			(at 116.84 109.22 90)
 			(effects
 				(font
@@ -8235,7 +8235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1u"
 			(at 68.58 38.1 90)
 			(effects
 				(font
@@ -8350,7 +8350,7 @@
 				)
 			)
 		)
-		(property "Value" "50 Ohm"
+		(property "Value" "50"
 			(at 50.8 162.56 90)
 			(effects
 				(font
@@ -8851,7 +8851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "10u"
 			(at 95.25 60.96 90)
 			(effects
 				(font
@@ -9127,7 +9127,7 @@
 				)
 			)
 		)
-		(property "Value" "1 KOhn"
+		(property "Value" "1K"
 			(at 64.77 64.77 90)
 			(effects
 				(font
@@ -9465,7 +9465,7 @@
 				)
 			)
 		)
-		(property "Value" "50 Ohm"
+		(property "Value" "50"
 			(at 240.03 106.68 90)
 			(effects
 				(font
@@ -9969,7 +9969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1u"
 			(at 105.41 166.37 0)
 			(effects
 				(font
