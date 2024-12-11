@@ -1,0 +1,243 @@
+(footprint "1210"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<p><b>Generic 3225 (1210) package</b></p>\n<p>0.2mm courtyard excess rounded to nearest 0.05mm.</p> Footprint dimensions are combination from <a href=\"http://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf\">Vishay</a> and <a href=\"https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf\">Bel</a>")
+	(property "Reference" "REF**"
+		(at 0 -1.397 0)
+		(layer "F.Fab")
+		(uuid "2a8b5004-f2a1-4b1f-adc8-57d8cfde2178")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "Polyfuse"
+		(at 0 1.397 0)
+		(layer "F.Fab")
+		(uuid "ca4c040c-0f84-4c04-98a4-0c5c8539bdc1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
+	(property "Footprint" "SparkFun-Fuse:1210"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3f5b598-3433-4247-98d6-004c8c0ed3e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zch-series.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d8951d2-c6ec-436f-a466-3c7c9340a6b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resettable fuse 2A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67cc0ef9-e37d-4526-a211-e0e7f2cf6455")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purpose" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "571b5cd2-af36-429c-8d96-4ec53db6b5b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Instructions and notes" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe460ddc-304f-4d44-88f1-61f7aeae7b37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PROD_ID" "RES-14313"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa8bd0c2-5dae-467c-be3a-af1f17dec77c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IMax" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70f54c1d-d7d3-44a5-aa20-42f77b79e4ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VDrop" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1ffe05e-51bb-46db-9b22-7b403439ebcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VMax" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac228284-e37c-4b06-9efc-c3140bac40c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.215 -1.575)
+		(end 2.215 -1.575)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df201833-b326-42c5-b328-3b090d126458")
+	)
+	(fp_line
+		(start -2.215 1.575)
+		(end -2.215 -1.575)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c5497b9-f19a-42a2-ab9e-9ca0fce667e3")
+	)
+	(fp_line
+		(start 2.215 -1.575)
+		(end 2.215 1.575)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fcf747e9-3b57-4366-9c53-c4d796fd3d1e")
+	)
+	(fp_line
+		(start 2.215 1.575)
+		(end -2.215 1.575)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "465fe184-953e-4adc-b941-fa04230de549")
+	)
+	(fp_line
+		(start -1.625 -1.25)
+		(end 1.625 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5bfdd25c-967d-4ef7-887a-a2f9d045d59e")
+	)
+	(fp_line
+		(start -1.625 1.25)
+		(end -1.625 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5336d2dc-39a3-49ef-baf1-0b43d6f1fd83")
+	)
+	(fp_line
+		(start 1.6245 1.25)
+		(end -1.625 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37f78b03-7e6a-4fb7-8f77-f1f51d662644")
+	)
+	(fp_line
+		(start 1.625 -1.25)
+		(end 1.6245 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e9f23ad-3e4b-4419-8aa0-6cf9ea9bd3b7")
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "970feb87-3543-493d-bcd7-a055d2e09d10")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "515be269-3b12-4f74-ab9f-d5453c992e37")
+	)
+)

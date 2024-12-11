@@ -1,0 +1,471 @@
+(footprint "PSON65P250X250X100-8N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2.5 mm x 2.5 mm x 0.93 mm metal lid LGA")
+	(property "Reference" "REF**"
+		(at -0.235245 -1.866763 0)
+		(layer "F.SilkS")
+		(uuid "c36eb80d-b757-48c8-bd84-b8ff90bbd761")
+		(effects
+			(font
+				(size 0.321721 0.321721)
+				(thickness 0.08043)
+			)
+		)
+	)
+	(property "Value" "BME280"
+		(at 3.077771 1.80686 0)
+		(layer "F.Fab")
+		(uuid "22427ba6-88de-4a5a-95e4-dfa26a1686d6")
+		(effects
+			(font
+				(size 0.321103 0.321103)
+				(thickness 0.080276)
+			)
+		)
+	)
+	(property "Footprint" "Project_Library:PSON65P250X250X100-8N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "217e8c01-4c43-407b-840c-247cbc0d39eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "448cf1e7-c4a0-451b-9caa-504ff8e11cba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b144ba7-6040-4161-9c78-d33e0bcb9ac7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Bosch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "246dd118-97c4-40e5-b0a9-78520f35d255")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "Integrated pressure, humidity and temperature sensor; 8-pin 2.5x2.5x0.93mm LGA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d839d6af-dacb-4b8b-a1bc-a467a8bbd802")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "LGA-8 Bosch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cb603ea-0bdc-4b14-95b7-ce2dd99b5597")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICE" "4.94 USD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5f5ebfb-4ae7-48a3-a898-e0f14ad61ba9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "LGA-8 Bosch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0600eec1-4015-49fa-b93a-00c652b8d40c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/BME280/Bosch+Sensortec/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9d9b9f7-d847-4763-90d7-cad505e46631")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "IPC-7351B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d7c1cca-0029-49e8-95a4-28f7db575f23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/BME280/Bosch+Sensortec/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f63ae954-0bdb-4821-b724-14f2cc81f7dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "BME280"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22c488bc-deac-4b7f-82a7-e023a2633a98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a90442cf-c863-4a65-abc9-fc7c22b441aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4017149-58c0-403f-a4f2-ded04585174b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AVAILABILITY" "Good"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41b2edf2-feac-4a2b-a2de-33ba5b67b5c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n                        \n                            Board Mount Humidity Sensors MEMS humidity, pressure and temperature sensor\n                        \n"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcd07d98-fb58-416c-8a22-67140cec769b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IMax" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "deb3adb0-7374-4476-ad87-fa552372f1fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VDrop" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f4a3ada-7d49-4ec2-9a16-6ff20662efb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VMax" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a58e21d8-a959-4d44-958b-bfe37a58f76e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -1.385)
+		(end 1.3 -1.385)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cf6f133-a16a-4efb-a506-d25dc180cb30")
+	)
+	(fp_line
+		(start -1.3 1.385)
+		(end 1.3 1.385)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2adb9033-90ec-432a-9f4e-437e792a8cd4")
+	)
+	(fp_circle
+		(center 1.6 -1)
+		(end 1.65 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b1f7db44-ad8d-4ff8-8017-1a1c193e6149")
+	)
+	(fp_line
+		(start -1.55 -1.55)
+		(end 1.55 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff4a4932-89cb-42c1-a61b-55adf2fea2f1")
+	)
+	(fp_line
+		(start -1.55 1.55)
+		(end -1.55 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d0c64dd-3a9a-42f8-b1b1-a83e42c0fad0")
+	)
+	(fp_line
+		(start 1.55 -1.55)
+		(end 1.55 1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ce353f6-0700-423f-b017-7d6180d1654d")
+	)
+	(fp_line
+		(start 1.55 1.55)
+		(end -1.55 1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "479d3a00-1d17-45a4-85cf-06d1e3dbbbc0")
+	)
+	(fp_line
+		(start -1.3 -1.3)
+		(end -1.3 1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c93d64eb-8815-4c07-9c7d-ddfacd4d0f33")
+	)
+	(fp_line
+		(start -1.3 1.3)
+		(end 1.3 1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ab88fe5-daec-4ba9-9e95-7ea47a4a908f")
+	)
+	(fp_line
+		(start 1.3 -1.3)
+		(end -1.3 -1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d46e63e7-da33-427f-8fe9-dadef40567a4")
+	)
+	(fp_line
+		(start 1.3 1.3)
+		(end 1.3 -1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "425d7792-e8ae-4509-a27c-4f80b8336431")
+	)
+	(fp_circle
+		(center 1 -1)
+		(end 1.05 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "b70fc77a-68d5-4ac0-9ebc-bb1970958a77")
+	)
+	(pad "1" smd roundrect
+		(at 0.97 -0.975)
+		(size 0.49 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "e311f62f-9986-4c80-9ffd-6d088b841ecb")
+	)
+	(pad "2" smd roundrect
+		(at 0.97 -0.325)
+		(size 0.49 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "4221b3e8-2df9-4321-a187-27f8538086f0")
+	)
+	(pad "3" smd roundrect
+		(at 0.97 0.325)
+		(size 0.49 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "bc3b261f-c4d1-463a-b71d-b70c592d10d5")
+	)
+	(pad "4" smd roundrect
+		(at 0.97 0.975)
+		(size 0.49 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "50f26fdc-f1d3-4e8e-888a-c4030d802521")
+	)
+	(pad "5" smd roundrect
+		(at -0.97 0.975)
+		(size 0.49 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "c5eefa8f-7adb-4116-b8c8-82eeda0087bc")
+	)
+	(pad "6" smd roundrect
+		(at -0.97 0.325)
+		(size 0.49 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "239e0d4a-b41c-46f9-84b9-aac4c3dcc314")
+	)
+	(pad "7" smd roundrect
+		(at -0.97 -0.325)
+		(size 0.49 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "bd5226c9-808f-4168-b304-a9f632caa622")
+	)
+	(pad "8" smd roundrect
+		(at -0.97 -0.975)
+		(size 0.49 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "7aba0049-aac3-4fc4-8baa-040c62c76424")
+	)
+	(model "${KIPRJMOD}/Libraries/3D models/BME280.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

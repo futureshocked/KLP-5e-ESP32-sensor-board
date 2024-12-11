@@ -1,0 +1,410 @@
+(footprint "TRANS_TEMT6000X01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.077583 -1.607158 0)
+		(layer "F.SilkS")
+		(uuid "a8433972-7650-49d0-bc59-c30934f7bd2b")
+		(effects
+			(font
+				(size 0.480705 0.480705)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TEMT6000X01"
+		(at 2.585794 1.597795 0)
+		(layer "F.Fab")
+		(uuid "ea8fa001-3976-4746-b50f-d994a631d1d5")
+		(effects
+			(font
+				(size 0.48078 0.48078)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Project_Library:TRANS_TEMT6000X01"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95cd6b68-cafe-4014-9e9e-5bae3f7636fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e753971-ff87-4765-88b6-30d1341526fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09b284b9-cb72-42ef-9014-3881871eecf3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Vishay Semiconductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08d97296-4ba8-42fb-9484-520043c3f69b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n                        \n                            Phototransistors 570nm Top View 1206 (3216 Metric)\n                        \n"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d30bd4d-980d-48d8-ba8b-af0743543351")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "1206 Vishay"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21153c27-cf9f-4bd3-9d78-bab75d34ebc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adee7976-7262-4d17-94b3-7f3d8cf44fe7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/TEMT6000X01/Vishay+Semiconductor+Opto+Division/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50002efd-0ac6-4098-a87a-18a0de2c150a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43b18858-d7fd-464f-91c9-01b7f7e7a31d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "1.9"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ec22e05-c98f-4d86-ab68-524ef0848da9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEMT6000X01/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b821b946-7ea1-4a44-b5ec-e90181c55474")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "TEMT6000X01"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dc36abb-008c-44dd-bdc5-9e3849fec441")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6300f28d-5ec0-48e0-8c6f-2ae9859512fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "VISHAY"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40a4aedb-2b47-4cf8-886d-c35b18906448")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IMax" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98c54c35-a9b0-46c6-ad7b-06e1a60f7cfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VDrop" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "800e6f9f-f3e1-41fb-b996-8394021dacff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VMax" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1243e3c-ab63-4e64-a94f-02b5077731c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.82 -1.075)
+		(end 2.075 -1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79e304a8-5883-4c78-99c7-e6b4a44e8db1")
+	)
+	(fp_line
+		(start 2.075 -1.075)
+		(end 2.075 -0.87)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "598bfb95-ff3b-4028-8121-945e8c282075")
+	)
+	(fp_line
+		(start 2.075 0.88)
+		(end 2.075 1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bd4cf1a-fc47-44ce-8cf7-43d04de05f6d")
+	)
+	(fp_line
+		(start 2.075 1.075)
+		(end -0.83 1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "237f6e9c-c4fd-400f-b2ab-752fc05cbd7c")
+	)
+	(fp_circle
+		(center -3 -0.7)
+		(end -2.9 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6aaf1d37-0d1f-412c-a514-a9f494b64f28")
+	)
+	(fp_line
+		(start -2.555 -1.325)
+		(end 2.555 -1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2045ae45-297c-4e84-9ad1-169d2da60471")
+	)
+	(fp_line
+		(start -2.555 1.325)
+		(end -2.555 -1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98e48857-4f2f-42f1-9971-dde4888ce9d8")
+	)
+	(fp_line
+		(start 2.555 -1.325)
+		(end 2.555 1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5100c08-48cc-431b-8045-657d9cb20a18")
+	)
+	(fp_line
+		(start 2.555 1.325)
+		(end -2.555 1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96f45937-a58b-4098-9da8-b09f0b5dd0ec")
+	)
+	(fp_line
+		(start -2.075 -1.075)
+		(end 2.075 -1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fdece2b-58a7-4300-8487-6bed72b69ecc")
+	)
+	(fp_line
+		(start -2.075 1.075)
+		(end -2.075 -1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecd38519-55aa-45bc-856b-de7759398912")
+	)
+	(fp_line
+		(start 2.075 -1.075)
+		(end 2.075 1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76ec8931-5e4d-4e27-84e7-6c9a0d3f29f5")
+	)
+	(fp_line
+		(start 2.075 1.075)
+		(end -2.075 1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3bd521e-7d77-4f76-8d4c-8346fec958b1")
+	)
+	(fp_circle
+		(center -3 -0.7)
+		(end -2.9 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "35578e7b-6392-4141-a0f3-c36e4972ac99")
+	)
+	(pad "1" smd rect
+		(at -1.755 -0.55)
+		(size 1.1 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "49384ff3-7147-44af-bb6d-8f718cd94c2e")
+	)
+	(pad "2" smd rect
+		(at -1.755 0.55)
+		(size 1.1 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "91f2b1eb-951b-4f0b-ab14-be6f54dd8ec8")
+	)
+	(pad "3" smd rect
+		(at 1.755 0)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "083e504a-9404-4d97-a8ee-5e19fcde1b05")
+	)
+)

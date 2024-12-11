@@ -1,0 +1,458 @@
+(footprint "SOIC127P790X216-8N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.27531 -3.73917 0)
+		(layer "F.SilkS")
+		(uuid "35ec04e0-b430-474f-9733-bf48edb55b73")
+		(effects
+			(font
+				(size 1.001118 1.001118)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "W25Q32JVSSIQ"
+		(at 8.14491 3.671735 0)
+		(layer "F.Fab")
+		(uuid "0675da99-adb8-4195-a6df-ed13293e27c5")
+		(effects
+			(font
+				(size 1.001835 1.001835)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Project_Library:SOIC127P790X216-8N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35b1ed38-c2aa-45b4-bed5-d2b869b43009")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47772c1f-de6d-4679-8714-21791fef8192")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5bf491f-8f01-48b6-84f8-3983bca44d02")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SHOP" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f5b449b-764a-4925-9465-4e13b95391a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Winbond"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46bd35b7-b5a4-4243-a5dd-d70a98c88415")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n                        \n                            FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 133 MHz 8-SOIC\n                        \n"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f37e73f7-2419-4d40-a0d1-4e4e0fa55d51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SOIC-8 Winbond"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14d3f7a0-4b5f-4aab-9e95-d49bfb0120aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bb67f1a-3754-412e-8bd3-6509f1c1f219")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond+Electronics/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38bc0485-2f1c-461b-9ee9-9f6d23218d0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "W25Q32JVSSIQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52faeccf-a16b-4b60-be2b-6bdbfdfb8453")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "M_PART_NUMBER" "W25QXX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffc92bf9-99f8-4b89-8257-dc496d16968a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f0b6ba7-6bce-4ef3-ac21-9ebc80ce3783")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond+Electronics/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2672c455-5b33-4df6-9ef7-548ba457e454")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IMax" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b03d43a-667c-4438-a549-bd7a9c6528c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VDrop" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cc74c6a-9aaf-4cef-b5c2-8e884cf27d43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VMax" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f040f32-e787-4ac5-b852-a9d994a82160")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.475 -2.65)
+		(end 2.475 -2.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6c47048-b066-4f95-af34-dc34c9597828")
+	)
+	(fp_line
+		(start -2.475 2.65)
+		(end -2.475 -2.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "923f969c-7720-4437-b439-92876541a064")
+	)
+	(fp_line
+		(start 2.475 -2.65)
+		(end 2.475 2.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e0e53f5-c573-4f5e-a351-0cc9802bf52e")
+	)
+	(fp_line
+		(start 2.475 2.65)
+		(end -2.475 2.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91d9167f-49a3-4545-b1aa-a2c694b7dd31")
+	)
+	(fp_circle
+		(center -3.6 -2.6)
+		(end -3.5 -2.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5a388519-8c4a-447b-988f-4fca1c5dc3ab")
+	)
+	(fp_circle
+		(center -3.6 -2.6)
+		(end -3.376394 -2.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5d64f96e-6dfa-4fc5-9c39-3336a3f51df3")
+	)
+	(fp_circle
+		(center -3.5 -2.6)
+		(end -3.4 -2.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d0ed3a00-77b4-4a1c-8843-ecbeb4d74dec")
+	)
+	(fp_circle
+		(center -1.8 -1.9)
+		(end -1.7 -1.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9e629158-bcff-4d3a-826e-448f2e467999")
+	)
+	(fp_circle
+		(center -1.8 -1.9)
+		(end -1.658581 -1.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e36a44b2-0409-42c6-a1a2-5c04a178f324")
+	)
+	(fp_circle
+		(center -1.8 -1.9)
+		(end -1.576394 -1.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e53903d5-4a7c-4dbe-809e-468f650a3343")
+	)
+	(fp_circle
+		(center -1.8 -1.9)
+		(end -1.483775 -1.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e3e3e075-f55e-4dd1-b2c6-4dff80d5f827")
+	)
+	(fp_circle
+		(center -1.8 -1.8)
+		(end -1.7 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "20fb1a38-0c5e-4f78-96ab-f3da45a6a12e")
+	)
+	(fp_line
+		(start -4.65 -2.95)
+		(end 4.65 -2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "84eff3bf-a321-4feb-8d74-9d0be5c1db3b")
+	)
+	(fp_line
+		(start -4.65 2.95)
+		(end -4.65 -2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf91d643-f9a7-4fa2-b6ad-fadaa5edd290")
+	)
+	(fp_line
+		(start 4.65 -2.95)
+		(end 4.65 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8aaa36ec-3733-4a9a-a33b-7d3eeaee3168")
+	)
+	(fp_line
+		(start 4.65 2.95)
+		(end -4.65 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1b7d4c7-5ff1-4976-9daa-090d495e3de2")
+	)
+	(pad "1" smd oval
+		(at -3.6 -1.905)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "13c1c410-1764-4d7b-9a4d-4981f716c4e5")
+	)
+	(pad "2" smd oval
+		(at -3.6 -0.635)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "e8f39de2-4f3e-4ef1-89c1-0e95473d887d")
+	)
+	(pad "3" smd oval
+		(at -3.6 0.635)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "c5e3f8e6-612e-4e53-9d09-3238c8aa18ba")
+	)
+	(pad "4" smd oval
+		(at -3.6 1.905)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "a9aaedc2-bfd2-436f-97e7-d6a632bc2c9e")
+	)
+	(pad "5" smd oval
+		(at 3.6 1.905)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "46419faf-5ebd-47b2-89ef-792b9905166e")
+	)
+	(pad "6" smd oval
+		(at 3.6 0.635)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "4f657dcc-0c72-4f57-919d-b7117c13103d")
+	)
+	(pad "7" smd oval
+		(at 3.6 -0.635)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "a6d56cf3-a42c-4b7b-a892-3951ba4a82e0")
+	)
+	(pad "8" smd oval
+		(at 3.6 -1.905)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "2f42a714-2285-425c-9fbb-8f56206484e4")
+	)
+)
