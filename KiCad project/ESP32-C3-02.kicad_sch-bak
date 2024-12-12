@@ -5517,17 +5517,6 @@
 		)
 		(uuid "cc27b469-39dd-4eda-9f84-048e4b9161a4")
 	)
-	(label "USB_D+"
-		(at 60.96 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd374f2c-4fbc-463f-939e-51729fe2e986")
-	)
 	(label "RTS"
 		(at 158.75 172.72 0)
 		(fields_autoplaced yes)
@@ -5560,17 +5549,6 @@
 			(justify left bottom)
 		)
 		(uuid "f12ff6a2-be18-4b6b-a120-e5f020db7545")
-	)
-	(label "USB_D-"
-		(at 58.42 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4508a75-11b4-4955-9764-ba18991a5a27")
 	)
 	(label "EN"
 		(at 203.2 31.75 180)
