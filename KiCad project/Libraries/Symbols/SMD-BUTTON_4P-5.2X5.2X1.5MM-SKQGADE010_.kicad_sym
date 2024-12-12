@@ -1,0 +1,135 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SMD-BUTTON_4P-5.2X5.2X1.5MM-SKQGADE010_" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "SW" (id 0) (at -5.08589 5.08589 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SMD-BUTTON_4P-5.2X5.2X1.5MM-SKQGADE010_" (id 1) (at -5.08837 -6.36046 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SMD-BUTTON_4P-5.2X5.2X1.5MM-SKQGADE010_:SW4-SMD-5.2X5.2X1.5MM" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "ALPS" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Switch Tactile N.O. SPST Round Button Gull Wing 0.05A 12VDC 2.55N SMD T/R\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "SMD-4 ALPS" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/SKQGADE010/ALPS/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "SKQGADE010" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/SKQGADE010/ALPS/view-part/?ref=eda" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SMD-BUTTON_4P-5.2X5.2X1.5MM-SKQGADE010__0_0"
+      (polyline
+        (pts (xy -5.08 5.08) (xy 5.08 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 5.08) (xy 5.08 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 2.54) (xy 5.08 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -2.54) (xy 5.08 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy -5.08 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy -5.08 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -2.54) (xy -5.08 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 2.54) (xy -5.08 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 2.54) (xy 0.0 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 2.54) (xy 5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 2.54) (xy 0.0 1.27)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy -1.27 -0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -1.27) (xy 0.0 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy 5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy -5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -6.35 2.54) (xy -5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -6.35 -2.54) (xy -5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 6.35 -2.54) (xy 5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 6.35 2.54) (xy 5.08 2.54)) (stroke (width 0.1524))
+      )
+      (circle (center -1.27 -0.762) (radius 0.1524)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (circle (center 0.0 -1.27) (radius 0.1524)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (pin bidirectional line (at -8.89 2.54 0) (length 2.54)
+        (name "A0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 8.89 2.54 180.0) (length 2.54)
+        (name "A1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -8.89 -2.54 0) (length 2.54)
+        (name "B0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 8.89 -2.54 180.0) (length 2.54)
+        (name "B1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
