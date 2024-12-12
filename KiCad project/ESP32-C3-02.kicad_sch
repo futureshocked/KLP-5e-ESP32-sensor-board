@@ -9321,7 +9321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MODULE_ESP32-C3-WROOM-02-H4"
+		(property "Footprint" "Project_Library:MODULE_ESP32-C3-WROOM-02-H4"
 			(at 220.98 46.99 0)
 			(effects
 				(font
@@ -9702,7 +9702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 128.27 107.95 0)
 			(effects
 				(font
@@ -10537,7 +10537,7 @@
 			(uuid "850b1204-8ec5-4af0-a6e4-d23628967772")
 		)
 		(instances
-			(project "KLP-5e-ESP32-sensor-board-main_modifications"
+			(project "ESP32 sensor board"
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
 					(page "3")
 				)
@@ -10665,7 +10665,7 @@
 			(uuid "5e757dfc-f283-4726-ba89-af2aa12d97e7")
 		)
 		(instances
-			(project "KLP-5e-ESP32-sensor-board-main_modifications"
+			(project "ESP32 sensor board"
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
 					(page "4")
 				)

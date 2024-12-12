@@ -28,6 +28,7 @@ node_modules/
 *.tmp
 *.lock
 *.lck
+KiCad project/*autosave*
 
 # Simulation data
 *.raw

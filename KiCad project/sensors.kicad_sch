@@ -473,16 +473,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Bosch"
+			(property "Description" "Integrated pressure, humidity and temperature sensor; 8-pin 2.5x2.5x0.93mm LGA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -492,7 +483,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "Integrated pressure, humidity and temperature sensor; 8-pin 2.5x2.5x0.93mm LGA"
+			(property "MF" "Bosch"
 				(at 0 0 0)
 				(effects
 					(font

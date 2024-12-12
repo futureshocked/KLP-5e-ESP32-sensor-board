@@ -6381,7 +6381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:USB-C_16"
+		(property "Footprint" "Project_Library:USB-C_16"
 			(at 30.48 96.52 0)
 			(effects
 				(font
@@ -7210,7 +7210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 160.02 114.3 0)
 			(effects
 				(font
@@ -7397,7 +7397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Fuse:1210"
+		(property "Footprint" "Project_Library:1210"
 			(at 73.66 54.61 0)
 			(effects
 				(font
@@ -7520,7 +7520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 170.18 115.57 0)
 			(effects
 				(font
@@ -8097,7 +8097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:JST_SMD_2.0mm-2"
+		(property "Footprint" "Project_Library:JST_SMD_2.0mm-2"
 			(at 39.37 134.62 0)
 			(effects
 				(font
@@ -8385,7 +8385,7 @@
 			(uuid "05e546c9-662d-454d-8d1b-4773744c1138")
 		)
 		(instances
-			(project "KLP-5e-ESP32-sensor-board-main_modifications"
+			(project "ESP32 sensor board"
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
 					(page "2")
 				)
