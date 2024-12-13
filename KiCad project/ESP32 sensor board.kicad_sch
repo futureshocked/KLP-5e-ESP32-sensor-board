@@ -1744,6 +1744,941 @@
 				)
 			)
 		)
+		(symbol "LTST-C170GKT:LTST-C170GKT"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C170GKT"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC2012X120N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/895/LTST-C170GKT.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED,SMD,0805,Green,6mcd,130deg Lite-On LTST-C170GKT, CHIPLED 0805 Series Green LED, 569 nm 2012 (0805), Rectangle Lens SMD package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LTST-C170GKT"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "859-LTST-C170GKT"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170GKT?qs=%2FSqKn2EfXQSV5aRij3YIfQ%3D%3D"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "LTST-C170GKT"
+				(at 12.7 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170gkt/lite-on-technology?utm_currency=USD&region=nac"
+				(at 12.7 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C170GKT_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LTST-C170KRKT:LTST-C170KRKT"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C170KRKT"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC2012X120N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LTST-C170KRKT"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "859-LTST-C170KRKT"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "LTST-C170KRKT"
+				(at 12.7 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170krkt/lite-on-technology?utm_currency=USD&region=nac"
+				(at 12.7 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C170KRKT_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LTST-C170TBKT:LTST-C170TBKT"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C170TBKT"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC2012X120N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170TBKT.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED,SMD,0805,Blue,28mcd,130deg"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LTST-C170TBKT"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "859-LTST-C170TBKT"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170TBKT?qs=0uL0gcxEMop2ooGmIUzw3A%3D%3D"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "LTST-C170TBKT"
+				(at 12.7 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170tbkt/lite-on-technology?utm_currency=USD&region=nac"
+				(at 12.7 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C170TBKT_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:0ZCH0110AF2E"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "0ZCH0110AF2E"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "FUSC3226X100N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zch-series.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "1210 SMT PPTC | 1.10 Ih | 16V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Bel Circuit Protection"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0ZCH0110AF2E"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "0ZCH0110AF2E_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-Capacitor:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1905,694 +2840,6 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Fuse:Fuse 6V/2.0A/4.0A"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "6V/2.0A/4.0A"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SparkFun-Fuse:1210"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zch-series.pdf"
-				(at 1.016 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resettable fuse 2A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "RES-14313"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse 6V/2.0A/4.0A_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.524) (xy 1.524 1.524) (xy -1.524 -1.524) (xy -2.54 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 0.762)
-					(end -2.54 -0.762)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse 6V/2.0A/4.0A_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SparkFun-LED:LED_Blue_0603"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Blue"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/SMLE12_Series_Rev2.0_2007.pdf"
-				(at 2.54 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "DIO-08575"
-				(at -0.254 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Blue_0603_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Blue_0603_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SparkFun-LED:LED_Green_0603"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Green"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "DIO-00821"
-				(at -0.254 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Green_0603_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Green_0603_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SparkFun-LED:LED_Red_0603"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Red"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
-				(at -1.27 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "DIO-17976"
-				(at 0 -4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Red_0603_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Red_0603_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SparkFun-PowerSymbol:3.3V"
 			(power)
 			(pin_names
@@ -2705,6 +2952,238 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "T491A106K010AT7280:T491A106K010AT7280"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "T491A106K010AT7280"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "T491A"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "T491, Tantalum, MnO2 Tantalum, Commercial Grade, 10 uF, 10%, 10 VDC, 125C, -55C, 85C, SMD, MnO2, Molded, 6 % , 3.8 Ohms, 1000 nA, 58.6 mg, 3216, 1.6mm, Height Max = 1.8mm, 9000, 156  Weeks"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.8"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "T491A106K010AT7280"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-T491A106K107280"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/T491A106K010AT7280?qs=HIKTYMuL%252B9NxijI%252BZuzkYQ%3D%3D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "T491A106K010AT7280"
+				(at 8.89 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/t491a106k010at7280/kemet-corporation?region=nac"
+				(at 8.89 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "T491A106K010AT7280_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3028,22 +3507,16 @@
 		)
 	)
 	(junction
-		(at 92.71 95.25)
+		(at 92.71 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03eba6d1-b478-44ee-bba5-ca85f9618ced")
 	)
 	(junction
-		(at 41.91 87.63)
+		(at 36.83 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b799e2c-1d75-45b0-ad64-e12bc0a0c59c")
-	)
-	(junction
-		(at 87.63 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dd11f8e-2a3c-455a-9176-ce407ccdb608")
+		(uuid "28b73732-8049-4036-8bc8-a869bf9766f3")
 	)
 	(junction
 		(at 218.44 100.33)
@@ -3058,10 +3531,16 @@
 		(uuid "3efa74d6-f3b9-4b33-90d0-63e99f5a6410")
 	)
 	(junction
-		(at 85.09 87.63)
+		(at 87.63 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43235da5-ed3d-4389-bf9c-c5e41c3bb1ee")
+		(uuid "52345df9-a264-4f40-97f1-6fb6b5befa34")
+	)
+	(junction
+		(at 88.9 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cb3651c-2522-4552-aed3-e9c0a85d3a71")
 	)
 	(junction
 		(at 54.61 55.88)
@@ -3076,16 +3555,16 @@
 		(uuid "6caf9bf0-5519-467e-97d4-422528798f2d")
 	)
 	(junction
+		(at 43.18 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b163b07-8608-49f9-84d7-dd038747c21b")
+	)
+	(junction
 		(at 96.52 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92112f69-9cb6-4e99-bc84-15e2ec149c5b")
-	)
-	(junction
-		(at 36.83 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "997ed2ed-ea7c-474b-b242-01396cfddd16")
 	)
 	(junction
 		(at 31.75 87.63)
@@ -3094,16 +3573,16 @@
 		(uuid "c33f939c-35e1-4d97-b857-0a3e8c171dcd")
 	)
 	(junction
+		(at 83.82 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6f34911-8218-4cdf-9a74-63ca72bcd49f")
+	)
+	(junction
 		(at 76.2 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2634c28-aca3-4f05-9bfb-e34585c30bdc")
-	)
-	(junction
-		(at 87.63 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e54121b8-7221-43ca-86a2-1d83938320e2")
 	)
 	(no_connect
 		(at 72.39 33.02)
@@ -3145,16 +3624,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 87.63) (xy 44.45 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e008399-6a86-4136-9d85-7e394313447f")
-	)
-	(wire
-		(pts
 			(xy 236.22 73.66) (xy 254 73.66)
 		)
 		(stroke
@@ -3175,6 +3644,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c375503-0b9e-4ee6-8fc1-6bc31b012088")
+	)
+	(wire
+		(pts
 			(xy 218.44 100.33) (xy 218.44 105.41)
 		)
 		(stroke
@@ -3182,16 +3661,6 @@
 			(type default)
 		)
 		(uuid "1cb55ae1-880c-4de2-b3c2-b05624ab0116")
-	)
-	(wire
-		(pts
-			(xy 85.09 87.63) (xy 87.63 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f67ab3a-6f85-41a3-8181-d74001bb6a46")
 	)
 	(wire
 		(pts
@@ -3205,13 +3674,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 92.71) (xy 128.27 92.71)
+			(xy 43.18 100.33) (xy 43.18 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "226f59dd-51ef-4dd5-a577-c18387532bed")
+		(uuid "24826161-caef-42fa-93e0-a26b12e34c4a")
 	)
 	(wire
 		(pts
@@ -3225,7 +3694,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 92.71) (xy 148.59 93.98)
+			(xy 31.75 101.6) (xy 31.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27396669-462e-454a-9ccc-fffd18fee687")
+	)
+	(wire
+		(pts
+			(xy 151.13 92.71) (xy 151.13 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3285,7 +3764,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 95.25) (xy 41.91 95.25)
+			(xy 36.83 101.6) (xy 43.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3305,7 +3784,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 92.71) (xy 114.3 87.63)
+			(xy 113.03 92.71) (xy 113.03 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3325,13 +3804,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 97.79) (xy 190.5 102.87)
+			(xy 113.03 92.71) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "497b395c-eac4-4ae4-9a66-9506b718b768")
+		(uuid "4b926598-e7b2-41d8-be4e-0417e9194bb3")
 	)
 	(wire
 		(pts
@@ -3385,6 +3864,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 86.36) (xy 190.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6257ca4b-6dea-421e-9ccc-1da082aca456")
+	)
+	(wire
+		(pts
+			(xy 31.75 90.17) (xy 31.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c579a6-0812-4898-9090-37a3ee107ee4")
+	)
+	(wire
+		(pts
 			(xy 193.04 71.12) (xy 193.04 76.2)
 		)
 		(stroke
@@ -3415,17 +3914,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 97.79) (xy 180.34 102.87)
+			(xy 43.18 87.63) (xy 44.45 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b5671c2-7efd-498c-8921-64a01adbb966")
+		(uuid "7377f5bb-6e8e-45b1-9daf-48d680572a6b")
 	)
 	(wire
 		(pts
-			(xy 31.75 95.25) (xy 36.83 95.25)
+			(xy 31.75 101.6) (xy 36.83 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3452,6 +3951,16 @@
 			(type default)
 		)
 		(uuid "81556ef3-1c18-4fde-a047-dc9fb0e0af50")
+	)
+	(wire
+		(pts
+			(xy 87.63 30.48) (xy 92.71 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8656da74-73b4-444b-b98b-a43ec612f3b6")
 	)
 	(wire
 		(pts
@@ -3495,17 +4004,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 87.63) (xy 96.52 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b53415b-7a0c-46ac-8e33-a553ede42b2c")
-	)
-	(wire
-		(pts
-			(xy 92.71 95.25) (xy 96.52 95.25)
+			(xy 92.71 100.33) (xy 96.52 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3545,17 +4044,27 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 30.48) (xy 96.52 30.48)
+			(xy 83.82 87.63) (xy 88.9 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93b266dd-174b-4fbb-934f-fb8a9b0aaa30")
+		(uuid "90ec6a7d-5c95-40cb-82cd-413c6414dee6")
 	)
 	(wire
 		(pts
-			(xy 80.01 90.17) (xy 85.09 90.17)
+			(xy 88.9 87.63) (xy 96.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96041202-cf4c-4fc7-856f-8aabf950003c")
+	)
+	(wire
+		(pts
+			(xy 80.01 90.17) (xy 83.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3565,7 +4074,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 92.71) (xy 148.59 92.71)
+			(xy 143.51 92.71) (xy 151.13 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3585,13 +4094,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 58.42) (xy 180.34 90.17)
+			(xy 180.34 58.42) (xy 180.34 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9aca945a-55f8-4f5a-9c2d-aa266cf0f91b")
+	)
+	(wire
+		(pts
+			(xy 96.52 100.33) (xy 96.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1a292c-e4f0-42b6-81af-2547b5ad312a")
 	)
 	(wire
 		(pts
@@ -3605,13 +4124,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 30.48) (xy 116.84 30.48)
+			(xy 88.9 100.33) (xy 92.71 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a047c68a-6356-4965-8f7d-e67e7f3c30ff")
+		(uuid "a04289be-cc50-464d-939d-fbb9320a006d")
 	)
 	(wire
 		(pts
@@ -3662,6 +4181,16 @@
 			(type default)
 		)
 		(uuid "ae2b439e-c09b-49d8-a0c1-fa9f0732a260")
+	)
+	(wire
+		(pts
+			(xy 180.34 86.36) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeabadf9-2406-44c5-ac45-b112e309a12c")
 	)
 	(wire
 		(pts
@@ -3775,7 +4304,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 110.49) (xy 190.5 111.76)
+			(xy 190.5 106.68) (xy 190.5 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3785,7 +4314,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 90.17) (xy 85.09 87.63)
+			(xy 83.82 90.17) (xy 83.82 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3802,16 +4331,6 @@
 			(type default)
 		)
 		(uuid "c783c179-37f5-425b-9304-b35c6f356909")
-	)
-	(wire
-		(pts
-			(xy 87.63 95.25) (xy 92.71 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd0b376c-b84d-48ee-8b47-54ebf9cf7dcb")
 	)
 	(wire
 		(pts
@@ -3835,7 +4354,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 110.49) (xy 170.18 111.76)
+			(xy 170.18 106.68) (xy 170.18 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3865,7 +4384,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 87.63) (xy 85.09 87.63)
+			(xy 36.83 102.87) (xy 36.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfb7859-a516-4c21-884b-65d5a39d40cb")
+	)
+	(wire
+		(pts
+			(xy 80.01 87.63) (xy 83.82 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3875,7 +4404,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 97.79) (xy 170.18 102.87)
+			(xy 170.18 86.36) (xy 170.18 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3885,7 +4414,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 90.17) (xy 170.18 63.5)
+			(xy 170.18 78.74) (xy 170.18 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3895,23 +4424,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 87.63) (xy 41.91 87.63)
+			(xy 31.75 87.63) (xy 43.18 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7420325-c18f-40fe-8a05-58f679d5152b")
-	)
-	(wire
-		(pts
-			(xy 114.3 92.71) (xy 120.65 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8a14893-bc9d-41e5-b447-ccf0da6caed5")
 	)
 	(wire
 		(pts
@@ -3925,7 +4444,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 110.49) (xy 180.34 111.76)
+			(xy 110.49 30.48) (xy 116.84 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e906af82-2023-4e48-8f5a-7b3aed2568ce")
+	)
+	(wire
+		(pts
+			(xy 180.34 106.68) (xy 180.34 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3935,7 +4464,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 55.88) (xy 190.5 90.17)
+			(xy 190.5 55.88) (xy 190.5 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3952,6 +4481,16 @@
 			(type default)
 		)
 		(uuid "ea5e41e8-736e-4369-ac5a-f16e90531a92")
+	)
+	(wire
+		(pts
+			(xy 96.52 90.17) (xy 96.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef519ebf-74c2-42c8-8fb2-2e26d6466e53")
 	)
 	(wire
 		(pts
@@ -4090,16 +4629,6 @@
 		)
 		(uuid "fbe969cf-7c01-4eeb-b901-18c610ac6d7c")
 	)
-	(text "Power LEDs"
-		(exclude_from_sim no)
-		(at 132.08 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3367a6eb-a33f-4c84-b6fd-f98af00257fb")
-	)
 	(text "USB-C connector"
 		(exclude_from_sim no)
 		(at 31.242 16.256 0)
@@ -4173,7 +4702,7 @@
 		(uuid "1449cfc2-9757-48f3-a01f-4a22cfeec3e5")
 	)
 	(label "+5V_USB"
-		(at 180.34 111.76 270)
+		(at 180.34 107.95 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4294,7 +4823,7 @@
 		(uuid "e413ce52-5d98-4bef-aece-e6469c0adb4a")
 	)
 	(label "+5V_USB"
-		(at 170.18 111.76 270)
+		(at 170.18 107.95 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4327,7 +4856,7 @@
 		(uuid "e809be79-3511-4993-98a1-a62150942751")
 	)
 	(label "+5V_USB"
-		(at 190.5 111.76 270)
+		(at 190.5 107.95 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4349,8 +4878,8 @@
 		(uuid "fb7d10e4-1189-4f46-9d9d-eeb43a6fae5f")
 	)
 	(symbol
-		(lib_id "SparkFun-Capacitor:C")
-		(at 87.63 91.44 0)
+		(lib_id "T491A106K010AT7280:T491A106K010AT7280")
+		(at 88.9 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4358,7 +4887,7 @@
 		(dnp no)
 		(uuid "008a15f4-605a-4f5c-a7e8-87c579ffecd8")
 		(property "Reference" "C4"
-			(at 90.17 90.424 0)
+			(at 89.662 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4896,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 88.138 93.726 0)
+			(at 84.328 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,26 +4904,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 88.5952 102.87 0)
+		(property "Footprint" "T491A"
+			(at -7.29 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 88.9 107.95 0)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"
+			(at -107.29 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 87.63 91.44 0)
+		(property "Description" "T491, Tantalum, MnO2 Tantalum, Commercial Grade, 10 uF, 10%, 10 VDC, 125C, -55C, 85C, SMD, MnO2, Molded, 6 % , 3.8 Ohms, 1000 nA, 58.6 mg, 3216, 1.6mm, Height Max = 1.8mm, 9000, 156  Weeks"
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4934,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 87.63 105.41 0)
+			(at 74.93 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4943,7 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 91.44 92.7099 0)
+			(at 87.6301 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4953,7 @@
 			)
 		)
 		(property "Tolerance" "100%"
-			(at 91.44 95.2499 0)
+			(at 85.0901 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4963,7 @@
 			)
 		)
 		(property "Purpose" "Output filtering  capacitor."
-			(at 79.502 98.552 0)
+			(at 81.788 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4972,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 87.63 91.44 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4981,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 87.63 91.44 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4990,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 87.63 91.44 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,12 +4998,82 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 87.63 91.44 0)
+		(property "Manufacturer_Part_Number" "T491A106K010AT7280"
+			(at -507.29 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8"
+			(at -307.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -407.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-T491A106K107280"
+			(at -607.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/T491A106K010AT7280?qs=HIKTYMuL%252B9NxijI%252BZuzkYQ%3D%3D"
+			(at -707.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "T491A106K010AT7280"
+			(at -807.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/t491a106k010at7280/kemet-corporation?region=nac"
+			(at -907.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -4741,7 +5342,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 93.98 0)
+		(at 170.18 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4749,7 +5350,7 @@
 		(dnp no)
 		(uuid "0ca889d6-866a-4a62-8818-c4fdf73c1e6e")
 		(property "Reference" "R7"
-			(at 166.37 91.44 0)
+			(at 166.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +5359,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 167.64 101.6 90)
+			(at 167.386 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +5368,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 168.402 93.98 90)
+			(at 168.402 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +5377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 93.98 0)
+			(at 170.18 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +5386,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 93.98 0)
+			(at 170.18 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +5395,7 @@
 			)
 		)
 		(property "Purpose" "Current limiting"
-			(at 162.56 99.06 0)
+			(at 162.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +5405,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 170.18 93.98 0)
+			(at 170.18 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +5414,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 170.18 93.98 0)
+			(at 170.18 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +5423,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 170.18 93.98 0)
+			(at 170.18 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +5432,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 170.18 93.98 0)
+			(at 170.18 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +5441,7 @@
 			)
 		)
 		(property "PACKAGE" "0805 "
-			(at 170.18 93.98 0)
+			(at 170.18 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,8 +5465,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-LED:LED_Red_0603")
-		(at 124.46 92.71 180)
+		(lib_id "LTST-C170KRKT:LTST-C170KRKT")
+		(at 129.54 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4873,7 +5474,7 @@
 		(dnp no)
 		(uuid "1f491eb3-ff43-47b4-8638-b894bf6b731e")
 		(property "Reference" "D4"
-			(at 127 88.9 0)
+			(at 126.746 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +5483,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 123.19 88.9 0)
+			(at 122.936 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,26 +5491,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 124.46 86.36 0)
+		(property "Footprint" "LEDC2012X120N"
+			(at 116.84 -0.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
-			(at 125.73 83.82 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf"
+			(at 116.84 -100.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 124.46 92.71 0)
+		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+			(at 129.54 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4918,7 +5521,7 @@
 			)
 		)
 		(property "PROD_ID" "DIO-17976"
-			(at 124.46 88.138 0)
+			(at 129.54 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +5530,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 124.46 92.71 0)
+			(at 129.54 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4936,7 +5539,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 124.46 92.71 0)
+			(at 129.54 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4945,11 +5548,90 @@
 			)
 		)
 		(property "VMax" ""
-			(at 124.46 92.71 0)
+			(at 129.54 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Comments" "Download from https://componentsearchengine.com/part-view/LTST-C170KRKT/Lite-On"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 116.84 -300.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 116.84 -400.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KRKT"
+			(at 116.84 -500.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KRKT"
+			(at 116.84 -600.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"
+			(at 116.84 -700.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LTST-C170KRKT"
+			(at 116.84 -800.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170krkt/lite-on-technology?utm_currency=USD&region=nac"
+			(at 116.84 -900.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -4970,7 +5652,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 114.3 87.63 0)
+		(at 113.03 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4979,7 +5661,7 @@
 		(fields_autoplaced yes)
 		(uuid "20503c53-6493-49b4-a6db-79caad2bf2b6")
 		(property "Reference" "#PWR016"
-			(at 114.3 91.44 0)
+			(at 113.03 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5670,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 114.3 83.82 0)
+			(at 113.03 83.82 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4997,7 +5679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 87.63 0)
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +5688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 87.63 0)
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,7 +5697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 114.3 87.63 0)
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +5785,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 93.98 0)
+		(at 151.13 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5112,7 +5794,7 @@
 		(fields_autoplaced yes)
 		(uuid "29dc2876-b54d-4aae-84c1-008475d76b8a")
 		(property "Reference" "#PWR017"
-			(at 148.59 100.33 0)
+			(at 151.13 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5803,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 99.06 0)
+			(at 151.13 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +5811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 93.98 0)
+			(at 151.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +5820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 93.98 0)
+			(at 151.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +5829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 93.98 0)
+			(at 151.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,7 +6107,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 95.25 0)
+		(at 92.71 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5433,7 +6115,7 @@
 		(dnp no)
 		(uuid "3c9aa1b3-1b79-4c09-9c1c-acda5d110338")
 		(property "Reference" "#PWR010"
-			(at 92.71 101.6 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +6124,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 99.06 0)
+			(at 92.71 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +6132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 95.25 0)
+			(at 92.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +6141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 95.25 0)
+			(at 92.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +6150,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 95.25 0)
+			(at 92.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,7 +6172,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.16 92.71 270)
+		(at 139.7 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5498,7 +6180,7 @@
 		(dnp no)
 		(uuid "3f072c03-5d38-42d7-a826-6c015409a67d")
 		(property "Reference" "R10"
-			(at 130.81 90.17 90)
+			(at 133.35 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +6189,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 135.89 90.17 90)
+			(at 138.43 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +6198,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 137.16 90.932 90)
+			(at 139.7 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +6207,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 92.71 0)
+			(at 139.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +6216,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 137.16 92.71 0)
+			(at 139.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +6225,7 @@
 			)
 		)
 		(property "Purpose" "Current limiting"
-			(at 132.08 85.09 0)
+			(at 134.62 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +6235,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 137.16 92.71 0)
+			(at 139.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +6244,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 137.16 92.71 0)
+			(at 139.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5571,7 +6253,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 137.16 92.71 0)
+			(at 139.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5580,7 +6262,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 137.16 92.71 0)
+			(at 139.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +6271,7 @@
 			)
 		)
 		(property "PACKAGE" "0805 "
-			(at 137.16 92.71 0)
+			(at 139.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +6361,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C")
-		(at 31.75 91.44 0)
+		(at 31.75 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5687,7 +6369,7 @@
 		(dnp no)
 		(uuid "3f86167b-6c42-4e69-9623-fb519c17555b")
 		(property "Reference" "C2"
-			(at 34.544 92.456 0)
+			(at 34.544 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +6378,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 34.544 89.916 0)
+			(at 34.544 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +6387,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 32.7152 102.87 0)
+			(at 32.7152 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +6396,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 33.02 107.95 0)
+			(at 33.02 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +6405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 91.44 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +6414,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 31.75 105.41 0)
+			(at 31.75 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,16 +6423,6 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 35.56 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "100%"
 			(at 35.56 95.2499 0)
 			(effects
 				(font
@@ -5760,8 +6432,18 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "100%"
+			(at 35.56 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "Purpose" "Bypass  capacitor."
-			(at 36.83 97.79 90)
+			(at 36.83 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +6452,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 31.75 91.44 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,7 +6461,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 31.75 91.44 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +6470,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 31.75 91.44 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +6479,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 31.75 91.44 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +6488,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 31.75 91.44 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +6497,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 31.75 91.44 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +6506,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 31.75 91.44 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,8 +6530,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Capacitor:C")
-		(at 41.91 91.44 0)
+		(lib_id "T491A106K010AT7280:T491A106K010AT7280")
+		(at 43.18 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5857,7 +6539,7 @@
 		(dnp no)
 		(uuid "44d0513b-11de-4605-82b7-29b52ed05370")
 		(property "Reference" "C3"
-			(at 44.958 90.17 0)
+			(at 44.704 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +6548,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 45.212 92.456 0)
+			(at 38.354 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,26 +6556,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 42.8752 102.87 0)
+		(property "Footprint" "T491A"
+			(at -53.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 43.18 107.95 0)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"
+			(at -153.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 41.91 91.44 0)
+		(property "Description" "T491, Tantalum, MnO2 Tantalum, Commercial Grade, 10 uF, 10%, 10 VDC, 125C, -55C, 85C, SMD, MnO2, Molded, 6 % , 3.8 Ohms, 1000 nA, 58.6 mg, 3216, 1.6mm, Height Max = 1.8mm, 9000, 156  Weeks"
+			(at 43.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +6586,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 41.91 105.41 0)
+			(at 29.21 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +6595,7 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 45.72 92.7099 0)
+			(at 41.9101 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +6605,7 @@
 			)
 		)
 		(property "Tolerance" "100%"
-			(at 45.72 95.2499 0)
+			(at 39.3701 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +6615,7 @@
 			)
 		)
 		(property "Purpose" "Input filtering  capacitor."
-			(at 46.99 96.52 0)
+			(at 38.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +6624,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 41.91 91.44 0)
+			(at 43.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +6633,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 41.91 91.44 0)
+			(at 43.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,7 +6642,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 41.91 91.44 0)
+			(at 43.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,12 +6650,82 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 41.91 91.44 0)
+		(property "Manufacturer_Part_Number" "T491A106K010AT7280"
+			(at -553.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Comments" "Download this part from https://componentsearchengine.com/part-view/T491A106K010AT7280/KEMET"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8"
+			(at -353.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -453.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-T491A106K107280"
+			(at -653.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/T491A106K010AT7280?qs=HIKTYMuL%252B9NxijI%252BZuzkYQ%3D%3D"
+			(at -753.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "T491A106K010AT7280"
+			(at -853.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/t491a106k010at7280/kemet-corporation?region=nac"
+			(at -953.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -6058,7 +6812,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 93.98 0)
+		(at 180.34 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6066,7 +6820,7 @@
 		(dnp no)
 		(uuid "47407b5f-b6b2-4238-906b-de029bf0e769")
 		(property "Reference" "R8"
-			(at 176.53 91.44 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6075,7 +6829,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 177.8 101.6 90)
+			(at 177.8 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6838,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 178.562 93.98 90)
+			(at 178.562 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +6847,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 93.98 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +6856,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 180.34 93.98 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6865,7 @@
 			)
 		)
 		(property "Purpose" "Current limiting"
-			(at 172.72 99.06 0)
+			(at 172.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,7 +6875,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 180.34 93.98 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6130,7 +6884,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 180.34 93.98 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +6893,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 180.34 93.98 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +6902,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 180.34 93.98 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +6911,7 @@
 			)
 		)
 		(property "PACKAGE" "0805 "
-			(at 180.34 93.98 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,8 +6935,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-LED:LED_Red_0603")
-		(at 170.18 106.68 270)
+		(lib_id "LTST-C170KRKT:LTST-C170KRKT")
+		(at 170.18 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6190,7 +6944,7 @@
 		(dnp no)
 		(uuid "4af3f72e-7c2d-4385-abb3-2008267e4413")
 		(property "Reference" "D1"
-			(at 171.958 103.886 90)
+			(at 171.196 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6953,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 171.958 106.426 90)
+			(at 171.196 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,26 +6961,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 163.83 106.68 0)
+		(property "Footprint" "LEDC2012X120N"
+			(at 76.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
-			(at 161.29 105.41 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf"
+			(at -23.47 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 170.18 106.68 0)
+		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+			(at 170.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6991,7 @@
 			)
 		)
 		(property "PROD_ID" "DIO-17976"
-			(at 165.608 106.68 0)
+			(at 165.608 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +7000,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 170.18 106.68 0)
+			(at 170.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +7009,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 170.18 106.68 0)
+			(at 170.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,11 +7018,90 @@
 			)
 		)
 		(property "VMax" ""
-			(at 170.18 106.68 0)
+			(at 170.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 170.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at -223.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -323.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KRKT"
+			(at -423.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KRKT"
+			(at -523.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"
+			(at -623.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LTST-C170KRKT"
+			(at -723.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170krkt/lite-on-technology?utm_currency=USD&region=nac"
+			(at -823.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -6287,7 +7122,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 95.25 0)
+		(at 36.83 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6295,7 +7130,7 @@
 		(dnp no)
 		(uuid "4d534195-f951-404f-a125-0edb17640126")
 		(property "Reference" "#PWR061"
-			(at 36.83 101.6 0)
+			(at 36.83 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +7139,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 99.06 0)
+			(at 36.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +7147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 95.25 0)
+			(at 36.83 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +7156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 95.25 0)
+			(at 36.83 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,7 +7165,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 95.25 0)
+			(at 36.83 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7498,6 +8333,135 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:0ZCH0110AF2E")
+		(at 92.71 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa0db3f7-b232-43c6-bfd9-e5488fc32abf")
+		(property "Reference" "F1"
+			(at 101.854 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0ZCH0110AF2E"
+			(at 101.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:FUSC3226X100N"
+			(at 106.68 126.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zch-series.pdf"
+			(at 106.68 226.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1210 SMT PPTC | 1.10 Ih | 16V"
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 106.68 426.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 106.68 526.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 626.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bel Circuit Protection"
+			(at 106.68 726.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0ZCH0110AF2E"
+			(at 106.68 826.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Comments" "Download this symbol from https://componentsearchengine.com/part-view/0ZCH0110AF2E/Bel%20Circuit%20Protection"
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1c05015-f1ea-4832-9312-383e2c80128e")
+		)
+		(pin "2"
+			(uuid "f63356ce-d3a7-4026-9f6f-deff795e8989")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 218.44 26.67 0)
 		(unit 1)
@@ -7818,7 +8782,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C")
-		(at 96.52 91.44 0)
+		(at 96.52 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7826,7 +8790,7 @@
 		(dnp no)
 		(uuid "b79ea7f7-7d2c-40c7-a226-b49155654c39")
 		(property "Reference" "C5"
-			(at 99.822 90.17 0)
+			(at 99.822 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +8799,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 100.076 92.456 0)
+			(at 100.076 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,7 +8808,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 97.4852 102.87 0)
+			(at 97.4852 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +8817,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 97.79 107.95 0)
+			(at 97.79 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +8826,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 91.44 0)
+			(at 96.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +8835,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 96.52 105.41 0)
+			(at 96.52 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,16 +8844,6 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 100.33 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "100%"
 			(at 100.33 95.2499 0)
 			(effects
 				(font
@@ -7899,8 +8853,18 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "100%"
+			(at 100.33 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "Purpose" "Bypass  capacitor."
-			(at 101.6 97.79 90)
+			(at 101.6 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7909,7 +8873,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 96.52 91.44 0)
+			(at 96.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +8882,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 96.52 91.44 0)
+			(at 96.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,7 +8891,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 96.52 91.44 0)
+			(at 96.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,7 +8900,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 96.52 91.44 0)
+			(at 96.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,7 +8909,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 96.52 91.44 0)
+			(at 96.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,7 +8918,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 96.52 91.44 0)
+			(at 96.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,7 +8927,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 96.52 91.44 0)
+			(at 96.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +8952,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 85.09 87.63 0)
+		(at 83.82 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7997,7 +8961,7 @@
 		(fields_autoplaced yes)
 		(uuid "b811fd7f-fc34-4552-bc1f-aedd1eefdd5d")
 		(property "Reference" "#PWR05"
-			(at 85.09 91.44 0)
+			(at 83.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +8970,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 85.09 83.82 0)
+			(at 83.82 83.82 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8015,7 +8979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 87.63 0)
+			(at 83.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,7 +8988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 87.63 0)
+			(at 83.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8033,7 +8997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 85.09 87.63 0)
+			(at 83.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8054,17 +9018,16 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-LED:LED_Green_0603")
-		(at 180.34 106.68 270)
+		(lib_id "LTST-C170GKT:LTST-C170GKT")
+		(at 180.34 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b98334db-339d-463d-96ed-bfebf716cec9")
 		(property "Reference" "D2"
-			(at 182.88 103.8224 90)
+			(at 181.61 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +9036,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 182.88 106.3624 90)
+			(at 181.356 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8081,26 +9044,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 175.26 106.68 0)
+		(property "Footprint" "LEDC2012X120N"
+			(at 86.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
-			(at 170.18 106.68 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/895/LTST-C170GKT.pdf"
+			(at -13.31 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 180.34 106.68 0)
+		(property "Description" "LED,SMD,0805,Green,6mcd,130deg Lite-On LTST-C170GKT, CHIPLED 0805 Series Green LED, 569 nm 2012 (0805), Rectangle Lens SMD package"
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,7 +9074,7 @@
 			)
 		)
 		(property "PROD_ID" "DIO-00821"
-			(at 172.466 106.426 0)
+			(at 172.466 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8118,7 +9083,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 180.34 106.68 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,7 +9091,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 180.34 106.68 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,7 +9100,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 180.34 106.68 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +9109,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 180.34 106.68 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,11 +9118,90 @@
 			)
 		)
 		(property "VMax" ""
-			(at 180.34 106.68 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Comments" "Download part from https://componentsearchengine.com/part-view/LTST-C170GKT/Lite-On"
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at -213.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -313.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170GKT"
+			(at -413.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170GKT"
+			(at -513.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170GKT?qs=%2FSqKn2EfXQSV5aRij3YIfQ%3D%3D"
+			(at -613.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LTST-C170GKT"
+			(at -713.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170gkt/lite-on-technology?utm_currency=USD&region=nac"
+			(at -813.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -8243,138 +9287,16 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Fuse:Fuse 6V/2.0A/4.0A")
-		(at 100.33 30.48 180)
+		(lib_id "LTST-C170TBKT:LTST-C170TBKT")
+		(at 190.5 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c515c22b-3241-44da-b021-15d3738639d8")
-		(property "Reference" "F1"
-			(at 100.33 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Polyfuse"
-			(at 100.33 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
-			(at 100.33 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zch-series.pdf"
-			(at 99.314 24.892 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resettable fuse 2A"
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" ""
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Instructions and notes" ""
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "RES-14313"
-			(at 100.33 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMax" ""
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VDrop" ""
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VMax" ""
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b92e9e7a-0811-4c66-a0ef-28eaeca01c79")
-		)
-		(pin "2"
-			(uuid "97aeb133-8c62-4522-8d30-b32956bbbb8e")
-		)
-		(instances
-			(project ""
-				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-LED:LED_Blue_0603")
-		(at 190.5 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c65936c8-3c22-4a5f-93ef-6dfbe3b7a7ce")
 		(property "Reference" "D3"
-			(at 193.04 103.8224 90)
+			(at 191.77 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8383,7 +9305,7 @@
 			)
 		)
 		(property "Value" "Blue"
-			(at 193.04 106.3624 90)
+			(at 192.024 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,26 +9313,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 185.42 107.95 0)
+		(property "Footprint" "LEDC2012X120N"
+			(at 96.85 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/SMLE12_Series_Rev2.0_2007.pdf"
-			(at 180.34 109.22 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170TBKT.pdf"
+			(at -3.15 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 106.68 0)
+		(property "Description" "LED,SMD,0805,Blue,28mcd,130deg"
+			(at 190.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +9343,7 @@
 			)
 		)
 		(property "PROD_ID" "DIO-08575"
-			(at 182.626 106.426 0)
+			(at 182.626 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +9352,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 190.5 106.68 0)
+			(at 190.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8436,7 +9360,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 190.5 106.68 0)
+			(at 190.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8445,7 +9369,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 190.5 106.68 0)
+			(at 190.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,7 +9378,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 190.5 106.68 0)
+			(at 190.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,11 +9387,90 @@
 			)
 		)
 		(property "VMax" ""
-			(at 190.5 106.68 0)
+			(at 190.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Comments" "Download from https://componentsearchengine.com/part-view/LTST-C170TBKT/Lite-On"
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at -203.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -303.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170TBKT"
+			(at -403.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170TBKT"
+			(at -503.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170TBKT?qs=0uL0gcxEMop2ooGmIUzw3A%3D%3D"
+			(at -603.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LTST-C170TBKT"
+			(at -703.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170tbkt/lite-on-technology?utm_currency=USD&region=nac"
+			(at -803.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -8980,7 +9983,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 93.98 0)
+		(at 190.5 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8988,7 +9991,7 @@
 		(dnp no)
 		(uuid "d5531f30-2d1d-4296-9969-8c2875d4d1a0")
 		(property "Reference" "R9"
-			(at 186.69 91.44 0)
+			(at 186.69 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,7 +10000,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 187.96 101.6 90)
+			(at 187.96 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9006,7 +10009,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 188.722 93.98 90)
+			(at 188.722 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9015,7 +10018,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 93.98 0)
+			(at 190.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9024,7 +10027,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 190.5 93.98 0)
+			(at 190.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9033,7 +10036,7 @@
 			)
 		)
 		(property "Purpose" "Current limiting"
-			(at 182.88 99.06 0)
+			(at 182.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +10046,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 190.5 93.98 0)
+			(at 190.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,7 +10055,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 190.5 93.98 0)
+			(at 190.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9061,7 +10064,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 190.5 93.98 0)
+			(at 190.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9070,7 +10073,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 190.5 93.98 0)
+			(at 190.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9079,7 +10082,7 @@
 			)
 		)
 		(property "PACKAGE" "0805 "
-			(at 190.5 93.98 0)
+			(at 190.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
