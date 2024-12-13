@@ -1,4 +1,4 @@
-24590129951202337
+24593597957350691
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57029,6 +57029,13 @@ SOT65P210X110-5N
 5
 5
 Footprints
+SW4-SMD-5.2X5.2X1.5MM
+
+
+0
+4
+4
+Footprints
 TP4056-SO08-PAD-300
 <b>Small Outline Package</b> Fits JEDEC packages (narrow SOIC-8)
 
@@ -57049,6 +57056,13 @@ VALCON_CSP-USC16-TR
 0
 20
 20
+Footprints
+VREG_LM1117MPX-3.3_NOPB
+
+
+0
+4
+4
 Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
