@@ -5833,6 +5833,17 @@
 		)
 		(uuid "6a7c855d-2f32-47ae-a920-7647ee09e6b5")
 	)
+	(label "USB_D+"
+		(at 55.88 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ba900b2-f023-48fd-9483-0724191d911b")
+	)
 	(label "MIC_OUT"
 		(at 198.12 46.99 180)
 		(fields_autoplaced yes)
@@ -5986,6 +5997,17 @@
 			(justify right bottom)
 		)
 		(uuid "cc27b469-39dd-4eda-9f84-048e4b9161a4")
+	)
+	(label "USB_D-"
+		(at 53.34 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5174c17-97d7-4c0b-bd9d-c6ed0faba738")
 	)
 	(label "RTS"
 		(at 158.75 172.72 0)
