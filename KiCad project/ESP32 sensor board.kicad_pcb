@@ -12406,6 +12406,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "2ba53860-c7f2-48ef-a2b0-d1cdaa687fd3")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
+			(offset
+				(xyz 4 -0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -15286,6 +15297,18 @@
 			(uuid "d9d67dd0-7682-40b3-a9f4-ac9f30c5d555")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16957,6 +16980,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "4176dbfe-dfbf-40c3-a84d-3139d90a72f8")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Sensor_Audio.3dshapes/POM-2244P-C3310-2-R.wrl"
+			(offset
+				(xyz 1 1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "Footprints:T491A"
 		(layer "F.Cu")
@@ -17376,7 +17410,7 @@
 			(effects
 				(font
 					(size 0.480705 0.480705)
-					(thickness 0.15)
+					(thickness 0.120176)
 				)
 			)
 		)
@@ -17387,7 +17421,7 @@
 			(effects
 				(font
 					(size 0.48078 0.48078)
-					(thickness 0.15)
+					(thickness 0.120195)
 				)
 			)
 		)
@@ -17805,6 +17839,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "ed3778a6-88ac-489d-b3eb-2b2f0060dc52")
+		)
+		(model "${KIPRJMOD}/Libraries/3D models/TEMT6000X01.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
@@ -30189,6 +30234,72 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "bb8f12b5-b25c-4991-aaf0-9e26b8ad6dc7")
+	)
+	(dimension
+		(type aligned)
+		(layer "User.2")
+		(uuid "44c4d174-5cb1-44c6-a628-d3b7dca49b0b")
+		(pts
+			(xy 196.5 72.5) (xy 196.5 122.5)
+		)
+		(height -11.5)
+		(gr_text "50.0000 mm"
+			(at 206.85 97.5 90)
+			(layer "User.2")
+			(uuid "44c4d174-5cb1-44c6-a628-d3b7dca49b0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.2")
+		(uuid "6d777af2-cf26-4e65-b45b-babc827048d7")
+		(pts
+			(xy 203 77.5) (xy 98.25 77.5)
+		)
+		(height 8)
+		(gr_text "104.7500 mm"
+			(at 150.625 68.35 0)
+			(layer "User.2")
+			(uuid "6d777af2-cf26-4e65-b45b-babc827048d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 121.3892 101.1907)

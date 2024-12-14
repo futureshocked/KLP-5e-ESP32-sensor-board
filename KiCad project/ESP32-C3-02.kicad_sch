@@ -10282,6 +10282,15 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 80.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "15"
 			(uuid "09f10181-c398-4f33-a6c0-88f02b6ff0fe")
 		)
