@@ -1,4 +1,4 @@
-24593597957350691
+24600437503443973
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56980,6 +56980,13 @@ DIO_PESD5V0S1UL_315
 2
 2
 Footprints
+FUSC3226X100N
+0ZCH0110AF2E
+Fuse
+0
+2
+2
+Footprints
 GCT_USB4110GFA
 
 
@@ -57000,6 +57007,13 @@ JST_B4B-XH-AM__LF__SN_
 0
 4
 4
+Footprints
+LEDC2012X120N
+LTST-C170TBKT
+LED
+0
+2
+2
 Footprints
 MODULE_ESP32-C3-WROOM-02-H4
 
@@ -57035,6 +57049,20 @@ SW4-SMD-5.2X5.2X1.5MM
 0
 4
 4
+Footprints
+T491A
+T491A-1
+Capacitor Polarised
+0
+2
+2
+Footprints
+TE_Logo_11.6x4
+
+
+0
+0
+0
 Footprints
 TP4056-SO08-PAD-300
 <b>Small Outline Package</b> Fits JEDEC packages (narrow SOIC-8)

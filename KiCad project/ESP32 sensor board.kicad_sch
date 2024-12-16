@@ -4701,6 +4701,17 @@
 		)
 		(uuid "1449cfc2-9757-48f3-a01f-4a22cfeec3e5")
 	)
+	(label "CHARGING_POWER_GOOD"
+		(at 172.72 63.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c19536b-98f2-40b8-9650-df7daec161b0")
+	)
 	(label "+5V_USB"
 		(at 180.34 107.95 270)
 		(fields_autoplaced yes)
@@ -4745,6 +4756,17 @@
 		)
 		(uuid "7b10518b-941c-4d97-b6c0-2950ba77c4b3")
 	)
+	(label "PWR_LED"
+		(at 132.08 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80c11fb0-2637-48b5-8685-857640a8a557")
+	)
 	(label "USB_DP"
 		(at 36.83 35.56 180)
 		(fields_autoplaced yes)
@@ -4756,6 +4778,17 @@
 		)
 		(uuid "86011e26-d599-4134-ae13-6768c8cbe002")
 	)
+	(label "CHARGING"
+		(at 194.31 55.88 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ed61671-8ac0-42d9-9326-7f77b075bad7")
+	)
 	(label "+5V_USB"
 		(at 240.03 71.12 0)
 		(fields_autoplaced yes)
@@ -4766,6 +4799,17 @@
 			(justify left bottom)
 		)
 		(uuid "9f663556-40e5-4e08-a4ae-a5f70509ccf0")
+	)
+	(label "CHARGED"
+		(at 182.88 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b41c76f2-9ef5-4539-8d97-b87a85d682a2")
 	)
 	(label "+5V_USB"
 		(at 212.09 100.33 180)
