@@ -6089,18 +6089,6 @@
 	)
 	(hierarchical_label "USB_DP"
 		(shape input)
-		(at 48.26 116.84 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9a60a0e7-5c9b-47aa-b14e-28d2b0adfd49")
-	)
-	(hierarchical_label "USB_DN"
-		(shape input)
 		(at 48.26 96.52 90)
 		(fields_autoplaced yes)
 		(effects
@@ -6108,6 +6096,18 @@
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "9a60a0e7-5c9b-47aa-b14e-28d2b0adfd49")
+	)
+	(hierarchical_label "USB_DN"
+		(shape input)
+		(at 48.26 116.84 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "9db2a537-63fe-40e7-a091-229a30cf36e0")
 	)

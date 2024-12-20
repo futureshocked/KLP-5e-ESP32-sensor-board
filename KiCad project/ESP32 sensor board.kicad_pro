@@ -58,11 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|103166300|86879250|241c3738-ed4e-44a2-baf8-296f55653faf|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|141837500|78500000|72ecfbc7-114b-442d-990c-6d5a7df8c5d1|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|145600000|110950000|4cd23e2e-514a-409b-9893-91f40a743755|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -124,17 +120,17 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_hole_clearance": 0.2,
-        "min_hole_to_hole": 0.3,
+        "min_hole_to_hole": 0.6,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.05,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.08,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.254,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.2,
+        "min_via_diameter": 0.6,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -185,7 +181,10 @@
       ],
       "track_widths": [
         0.0,
-        0.15
+        0.1,
+        0.15,
+        0.2,
+        0.25
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -647,7 +646,7 @@
       },
       {
         "netclass": "VBUS",
-        "pattern": "/+5V_BUS*"
+        "pattern": "/+5V_USB"
       },
       {
         "netclass": "USB_data",
@@ -720,6 +719,14 @@
       {
         "netclass": "USB_data",
         "pattern": "/ESP32-C3-02/TX_RX"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "/VBUS"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "/VBAT"
       }
     ]
   },
