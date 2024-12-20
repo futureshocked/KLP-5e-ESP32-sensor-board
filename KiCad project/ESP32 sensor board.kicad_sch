@@ -5153,7 +5153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "T491A"
+		(property "Footprint" "Footprints:T491A"
 			(at -7.29 96.52 0)
 			(effects
 				(font
@@ -5740,7 +5740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "Footprints:LEDC2012X120N"
 			(at 116.84 -0.94 0)
 			(effects
 				(font
@@ -6805,7 +6805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "T491A"
+		(property "Footprint" "Footprints:T491A"
 			(at -53.01 96.52 0)
 			(effects
 				(font
@@ -7210,7 +7210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "Footprints:LEDC2012X120N"
 			(at 76.53 104.14 0)
 			(effects
 				(font
@@ -9336,7 +9336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "Footprints:LEDC2012X120N"
 			(at 86.69 104.14 0)
 			(effects
 				(font
@@ -9605,7 +9605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "Footprints:LEDC2012X120N"
 			(at 96.85 104.14 0)
 			(effects
 				(font

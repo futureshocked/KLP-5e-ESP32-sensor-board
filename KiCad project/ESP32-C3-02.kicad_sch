@@ -11,6 +11,108 @@
 		(company "Tech Explorations")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -5457,6 +5559,18 @@
 		(uuid 50d2fe17-3222-4743-a51d-011b69e61baa)
 	)
 	(rectangle
+		(start 145.415 24.765)
+		(end 167.005 67.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 52a5a030-f2fc-406c-be42-e092664e8d1e)
+	)
+	(rectangle
 		(start 18.415 138.43)
 		(end 113.665 192.405)
 		(stroke
@@ -5592,6 +5706,16 @@
 		)
 		(uuid "95bd258e-94dc-4689-9d29-283ae8796ffb")
 	)
+	(text "Test points"
+		(exclude_from_sim no)
+		(at 152.146 23.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5b14b28-4d10-4805-93ba-bb8caeb58a3d")
+	)
 	(text "ESP32-C3-02"
 		(exclude_from_sim no)
 		(at 179.578 14.478 0)
@@ -5668,6 +5792,17 @@
 		)
 		(uuid "118fb59b-26ff-476f-9730-cfbd68fd4bb4")
 	)
+	(label "CS"
+		(at 156.21 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1505bfbd-887f-4a9d-9bb8-afc64ba5e2dc")
+	)
 	(label "GPIO18"
 		(at 158.75 181.61 0)
 		(fields_autoplaced yes)
@@ -5711,6 +5846,17 @@
 			(justify left bottom)
 		)
 		(uuid "3a224b62-2c03-411c-a53e-91e8c0a13ea5")
+	)
+	(label "CS_SD"
+		(at 156.21 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e7926a6-b50c-4791-8bc5-bbe04dbb9dac")
 	)
 	(label "SCL"
 		(at 134.62 172.72 180)
@@ -5888,6 +6034,28 @@
 		)
 		(uuid "79a82f23-388e-4e8e-9869-76cb67cd4c7f")
 	)
+	(label "SCLK"
+		(at 156.21 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a889ad8-ad7c-4969-a72a-06c659189379")
+	)
+	(label "MISO_DO"
+		(at 156.21 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ff3da73-fdad-4eec-8bc2-47ba0f7b25a3")
+	)
 	(label "GPIO19"
 		(at 158.75 184.15 0)
 		(fields_autoplaced yes)
@@ -6008,6 +6176,17 @@
 			(justify left bottom)
 		)
 		(uuid "d5174c17-97d7-4c0b-bd9d-c6ed0faba738")
+	)
+	(label "MOSI_DI"
+		(at 156.21 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5a76f4b-b0ec-40c7-8f4c-c249b2e08946")
 	)
 	(label "RTS"
 		(at 158.75 172.72 0)
@@ -6483,6 +6662,70 @@
 			(project "ESP32 sensor board"
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14187dc9-b5f0-4652-be89-8c01e5181b19")
+		(property "Reference" "TP4"
+			(at 152.908 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEST CS_SD"
+			(at 152.908 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 156.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5120bc73-7380-48cc-adc9-457abcf7389c")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7165,7 +7408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "T491A"
+		(property "Footprint" "Footprints:T491A"
 			(at 160.35 36.83 0)
 			(effects
 				(font
@@ -7407,7 +7650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "Footprints:LEDC2012X120N"
 			(at 130.81 204.14 0)
 			(effects
 				(font
@@ -7685,6 +7928,70 @@
 			(project ""
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68d573d7-61a7-428f-9085-1bbd87dea6ab")
+		(property "Reference" "TP1"
+			(at 152.908 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test MOSI"
+			(at 152.908 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 156.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "964d33a6-07d2-407d-8fd6-ed45ce9aff2f")
+		)
+		(instances
+			(project ""
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8246,6 +8553,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76f8b012-3023-4ace-8d11-e787bcf2d6c9")
+		(property "Reference" "TP2"
+			(at 152.908 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test MISO"
+			(at 152.908 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 156.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "541e2bb6-195b-4e07-934e-a0d18fffc9f1")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Capacitor:C")
 		(at 247.65 34.29 0)
 		(unit 1)
@@ -8433,7 +8804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "T491A"
+		(property "Footprint" "Footprints:T491A"
 			(at 62.23 -58.09 0)
 			(effects
 				(font
@@ -9428,7 +9799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "T491A"
+		(property "Footprint" "Footprints:T491A"
 			(at 167.97 101.6 0)
 			(effects
 				(font
@@ -10788,7 +11159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "Footprints:LEDC2012X120N"
 			(at 130.81 195.25 0)
 			(effects
 				(font
@@ -11327,6 +11698,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec742d0c-0943-474c-8e8d-283e5ae76432")
+		(property "Reference" "TP3"
+			(at 152.908 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test CLK"
+			(at 152.908 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03924e9d-913d-4440-87a9-aabe13efe865")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
 		(at 97.79 154.94 0)
 		(unit 1)
@@ -11455,6 +11890,70 @@
 			(project "ESP32 sensor board"
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6f561bd-b662-4087-b966-bf3445af2c19")
+		(property "Reference" "TP5"
+			(at 152.908 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEST CS"
+			(at 152.908 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2878612a-e1a7-4de9-bc33-fea1b7caca33")
+		)
+		(instances
+			(project "ESP32 sensor board"
+				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
