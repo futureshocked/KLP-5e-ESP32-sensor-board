@@ -1,4 +1,4 @@
-24603906773860752
+24609111452095834
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57036,6 +57036,13 @@ PSON65P250X250X100-8N
 8
 8
 Footprints
+QFN50P400X400X100-21N
+
+
+0
+21
+21
+Footprints
 SOIC127P790X216-8N
 
 
@@ -57051,6 +57058,13 @@ SOT65P210X110-5N
 5
 Footprints
 SW4-SMD-5.2X5.2X1.5MM
+
+
+0
+4
+4
+Footprints
+SW_USLPT2819DT2TR
 
 
 0
@@ -57098,6 +57112,13 @@ VALCON_CSP-USC16-TR
 0
 20
 20
+Footprints
+VREG_LM1117MPX-3.3
+Power Management IC’s LM117MPX-3.3/NOPB
+
+0
+4
+4
 Footprints
 VREG_LM1117MPX-3.3_NOPB
 
