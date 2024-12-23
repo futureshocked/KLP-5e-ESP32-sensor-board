@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.4
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -185,7 +185,8 @@
         0.1,
         0.15,
         0.2,
-        0.25
+        0.25,
+        0.254
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -511,6 +512,23 @@
         "line_style": 0,
         "microvia_diameter": 0.4,
         "microvia_drill": 0.1,
+        "name": "5V_USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.3,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -654,7 +672,7 @@
         "pattern": "GND"
       },
       {
-        "netclass": "VBUS",
+        "netclass": "5V_USB",
         "pattern": "/+5V_USB"
       },
       {
