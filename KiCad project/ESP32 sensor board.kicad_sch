@@ -4998,6 +4998,17 @@
 		(uuid "2c19536b-98f2-40b8-9650-df7daec161b0")
 	)
 	(label "VBUS"
+		(at 137.16 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3229fabd-cf59-4fb9-96dc-3505ecb1a311")
+	)
+	(label "VBUS"
 		(at 29.21 29.21 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5150,17 +5161,6 @@
 			(justify left bottom)
 		)
 		(uuid "c57056a3-c07e-4c6d-a61d-4d863f005d2d")
-	)
-	(label "+5V_USB"
-		(at 137.16 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c59c7fb5-fee2-416d-b141-5817cbbabce2")
 	)
 	(label "USB_DN"
 		(at 137.16 143.8275 0)
@@ -11165,7 +11165,7 @@
 			(uuid "05e546c9-662d-454d-8d1b-4773744c1138")
 		)
 		(instances
-			(project "ESP32 sensor board"
+			(project "KLP-5e-ESP32-sensor-board-2.1_modifications"
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02"
 					(page "2")
 				)

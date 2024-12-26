@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -116,7 +116,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.08,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_hole_clearance": 0.2,
@@ -181,15 +181,12 @@
       ],
       "track_widths": [
         0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
+        0.08,
+        0.1,
+        0.15,
         0.2,
-        0.254,
-        0.3,
-        0.4,
-        0.8
+        0.25,
+        0.254
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -229,10 +226,6 @@
         {
           "diameter": 0.45,
           "drill": 0.25
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -471,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KLP-5e-ESP32-sensor-board-2.1_modifications.kicad_pro",
+    "filename": "ESP32 sensor board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -614,7 +607,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.3,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,

@@ -4348,16 +4348,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 90.17) (xy 187.96 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "021df8c2-228c-4f3c-b664-64040476a2bf")
-	)
-	(wire
-		(pts
 			(xy 77.47 38.1) (xy 77.47 49.53)
 		)
 		(stroke
@@ -4405,6 +4395,26 @@
 			(type default)
 		)
 		(uuid "0668b712-bb34-4e86-ab20-6bc8d13935d4")
+	)
+	(wire
+		(pts
+			(xy 233.68 31.75) (xy 233.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1d7c82-8371-469e-b45e-398238326737")
+	)
+	(wire
+		(pts
+			(xy 67.31 85.09) (xy 53.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a33a0a9-e7fd-4015-bc8e-d91acf64d0c9")
 	)
 	(wire
 		(pts
@@ -4578,13 +4588,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 82.55) (xy 67.31 82.55)
+			(xy 66.04 120.65) (xy 66.04 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "305b7d70-bd5c-4733-bbf1-fbc7509646f0")
+		(uuid "30f312e3-46ff-4570-9175-fef35099a1bd")
 	)
 	(wire
 		(pts
@@ -4708,16 +4718,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 85.09) (xy 67.31 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51551b5a-4a11-4f39-be09-95e20a79b333")
-	)
-	(wire
-		(pts
 			(xy 24.13 106.68) (xy 24.13 67.31)
 		)
 		(stroke
@@ -4758,7 +4758,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 92.71) (xy 187.96 92.71)
+			(xy 181.61 92.71) (xy 198.12 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4785,16 +4785,6 @@
 			(type default)
 		)
 		(uuid "5fd63d4a-8a2c-46dc-a454-2d1de4f34647")
-	)
-	(wire
-		(pts
-			(xy 195.58 92.71) (xy 198.12 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61515700-688c-497c-95d5-9652a087affb")
 	)
 	(wire
 		(pts
@@ -5198,13 +5188,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 170.18) (xy 40.64 170.18)
+			(xy 53.34 85.09) (xy 53.34 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b99fc089-10ef-4f4e-b4c9-010f3fdbfb20")
+		(uuid "b9176efb-44d2-4282-9ce1-005e5f39767f")
 	)
 	(wire
 		(pts
@@ -5328,6 +5318,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 82.55) (xy 67.31 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0576ef-7583-4224-b12c-b26d9944ecc9")
+	)
+	(wire
+		(pts
 			(xy 105.41 106.68) (xy 106.68 106.68)
 		)
 		(stroke
@@ -5358,13 +5358,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 162.56) (xy 40.64 162.56)
+			(xy 191.77 49.53) (xy 198.12 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1f550c1-4eb4-4502-bd0a-50674ef3c372")
+		(uuid "e32d2377-17dc-4f2b-9247-0390e38d4fde")
 	)
 	(wire
 		(pts
@@ -5388,7 +5388,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 170.18) (xy 55.88 170.18)
+			(xy 53.34 170.18) (xy 55.88 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5448,16 +5448,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 85.09) (xy 66.04 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6990f6d-9f4c-4838-8c52-05cccd8e17ae")
-	)
-	(wire
-		(pts
 			(xy 251.46 43.18) (xy 256.54 43.18)
 		)
 		(stroke
@@ -5485,16 +5475,6 @@
 			(type default)
 		)
 		(uuid "f9104c9e-4ebc-439c-8f7f-53858d170913")
-	)
-	(wire
-		(pts
-			(xy 53.34 96.52) (xy 53.34 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa4f80db-b136-4be6-a13a-96981476b7f7")
 	)
 	(wire
 		(pts
@@ -5914,7 +5894,7 @@
 		(uuid "47b1d577-5c6e-4c31-bba8-a95fc7f48a95")
 	)
 	(label "SCLK"
-		(at 38.1 162.56 180)
+		(at 48.26 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5947,7 +5927,7 @@
 		(uuid "52c46ed4-e65d-4a15-b6a2-31831022820d")
 	)
 	(label "MOSI_DI"
-		(at 38.1 170.18 180)
+		(at 53.34 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5980,7 +5960,7 @@
 		(uuid "6a7c855d-2f32-47ae-a920-7647ee09e6b5")
 	)
 	(label "USB_D+"
-		(at 55.88 120.65 0)
+		(at 55.88 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6002,7 +5982,7 @@
 		(uuid "6d6b121b-611b-4273-8c66-26c70e5030a6")
 	)
 	(label "SCLK"
-		(at 198.12 49.53 180)
+		(at 184.15 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6013,7 +5993,7 @@
 		(uuid "6de7c80e-4a16-4fbb-a971-5e645531af5b")
 	)
 	(label "MOSI_DI"
-		(at 181.61 90.17 180)
+		(at 195.58 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6134,7 +6114,7 @@
 		(uuid "b98a0827-4b63-44cf-ae3d-181a1ac70088")
 	)
 	(label "MOSI_DI"
-		(at 233.68 34.29 0)
+		(at 241.3 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6167,7 +6147,7 @@
 		(uuid "cc27b469-39dd-4eda-9f84-048e4b9161a4")
 	)
 	(label "USB_D-"
-		(at 53.34 87.63 0)
+		(at 55.88 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6292,7 +6272,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 191.77 90.17 270)
+		(at 237.49 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6300,7 +6280,7 @@
 		(dnp no)
 		(uuid "019b7edd-3509-4a75-914a-34506551d477")
 		(property "Reference" "R15"
-			(at 186.69 88.9 90)
+			(at 237.236 29.464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +6288,7 @@
 			)
 		)
 		(property "Value" "50"
-			(at 191.77 93.98 90)
+			(at 237.49 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6297,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 191.77 88.392 90)
+			(at 237.49 29.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6306,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 90.17 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6315,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 191.77 90.17 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6324,7 @@
 			)
 		)
 		(property "Purpose" "Help reduce ringing in high-speed SPI."
-			(at 191.77 90.17 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6333,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 191.77 90.17 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6342,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 191.77 90.17 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,7 +6351,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 191.77 90.17 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,7 +6360,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 191.77 90.17 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,7 +6369,7 @@
 			)
 		)
 		(property "PACKAGE" "0805 "
-			(at 191.77 90.17 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,128 +6837,6 @@
 			(project ""
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 191.77 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ac3ee22-e112-4d18-bbc0-d64f3c1d798b")
-		(property "Reference" "R17"
-			(at 186.69 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50"
-			(at 191.77 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 191.77 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 191.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" "Help reduce ringing in high-speed SPI."
-			(at 191.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Instructions and notes" ""
-			(at 191.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMax" ""
-			(at 191.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VDrop" ""
-			(at 191.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VMax" ""
-			(at 191.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0805 "
-			(at 191.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6c185fc-9ed1-4908-b84e-ab58d818f00d")
-		)
-		(pin "1"
-			(uuid "4d663d4c-586c-4ec3-9d59-2c267efe2e9a")
-		)
-		(instances
-			(project "ESP32 sensor board"
-				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8168,7 +8026,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 162.56 90)
+		(at 187.96 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8176,7 +8034,7 @@
 		(dnp no)
 		(uuid "713548eb-aa89-4e86-b0da-227e79596c04")
 		(property "Reference" "R20"
-			(at 49.53 163.83 90)
+			(at 187.96 47.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,7 +8042,7 @@
 			)
 		)
 		(property "Value" "50"
-			(at 44.45 158.75 90)
+			(at 187.96 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,7 +8051,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 44.45 164.338 90)
+			(at 187.96 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,7 +8060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 162.56 0)
+			(at 187.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,7 +8069,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 44.45 162.56 0)
+			(at 187.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8220,7 +8078,7 @@
 			)
 		)
 		(property "Purpose" "Help reduce ringing in high-speed SPI."
-			(at 44.45 162.56 0)
+			(at 187.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,7 +8087,7 @@
 			)
 		)
 		(property "Instructions and notes" ""
-			(at 44.45 162.56 0)
+			(at 187.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +8096,7 @@
 			)
 		)
 		(property "IMax" ""
-			(at 44.45 162.56 0)
+			(at 187.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8105,7 @@
 			)
 		)
 		(property "VDrop" ""
-			(at 44.45 162.56 0)
+			(at 187.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,7 +8114,7 @@
 			)
 		)
 		(property "VMax" ""
-			(at 44.45 162.56 0)
+			(at 187.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,7 +8123,7 @@
 			)
 		)
 		(property "PACKAGE" "0805 "
-			(at 44.45 162.56 0)
+			(at 187.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,128 +10281,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 44.45 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1397673-038c-4f24-ad54-e927b9bc26f8")
-		(property "Reference" "R21"
-			(at 49.53 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50"
-			(at 44.45 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 44.45 171.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" "Help reduce ringing in high-speed SPI."
-			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Instructions and notes" ""
-			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMax" ""
-			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VDrop" ""
-			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VMax" ""
-			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0805 "
-			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7c7d81a3-eb63-4b0e-a665-268a8780f37b")
-		)
-		(pin "1"
-			(uuid "de436c8c-bb40-4129-8306-da7400a7f00b")
-		)
-		(instances
-			(project "ESP32 sensor board"
-				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_USB:CP2102N-Axx-xQFN20")
 		(at 80.01 90.17 0)
 		(unit 1)
@@ -12266,7 +12002,7 @@
 			(uuid "850b1204-8ec5-4af0-a6e4-d23628967772")
 		)
 		(instances
-			(project "ESP32 sensor board"
+			(project "KLP-5e-ESP32-sensor-board-2.1_modifications"
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
 					(page "3")
 				)
@@ -12394,7 +12130,7 @@
 			(uuid "5e757dfc-f283-4726-ba89-af2aa12d97e7")
 		)
 		(instances
-			(project "ESP32 sensor board"
+			(project "KLP-5e-ESP32-sensor-board-2.1_modifications"
 				(path "/16c571a0-8550-4f05-972c-22b0701cbf02/09ec4a32-ddff-43cd-8e21-9ef822101853"
 					(page "4")
 				)

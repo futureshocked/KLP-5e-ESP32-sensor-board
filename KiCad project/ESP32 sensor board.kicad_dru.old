@@ -1,0 +1,5 @@
+(version 1)
+
+(rule ESP32_annular_width_GND_pads
+   (constraint annular_width (min 0.1mm))
+   (severity ignore))
