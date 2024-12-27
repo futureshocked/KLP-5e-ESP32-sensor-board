@@ -1,0 +1,254 @@
+** Drc report for ESP32 sensor board.kicad_pcb **
+** Created on 2024-12-27T10:49:36+1100 **
+
+** Found 61 DRC violations **
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1649 mm)
+    Rule: netclass 'GND'; error
+    @(145.9908 mm, 114.3825 mm): PTH pad B1 [GND] of J1
+    @(145.5908 mm, 115.0925 mm): PTH pad B2 [unconnected-(J1-SSTXP2-PadB2)] of J1
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1649 mm)
+    Rule: netclass 'GND'; error
+    @(145.5908 mm, 115.0925 mm): PTH pad B2 [unconnected-(J1-SSTXP2-PadB2)] of J1
+    @(145.1908 mm, 114.3825 mm): PTH pad G1 [GND] of J1
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1649 mm)
+    Rule: netclass 'GND'; error
+    @(144.7908 mm, 115.0925 mm): PTH pad B3 [unconnected-(J1-SSTXN2-PadB3)] of J1
+    @(145.1908 mm, 114.3825 mm): PTH pad G1 [GND] of J1
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'GND'; error
+    @(144.3908 mm, 114.3825 mm): PTH pad B4 [/VBUS] of J1
+    @(145.1908 mm, 114.3825 mm): PTH pad G1 [GND] of J1
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'GND'; error
+    @(141.9908 mm, 114.3825 mm): PTH pad B9 [/VBUS] of J1
+    @(141.1908 mm, 114.3825 mm): PTH pad G2 [GND] of J1
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1649 mm)
+    Rule: netclass 'GND'; error
+    @(141.5908 mm, 115.0925 mm): PTH pad B10 [unconnected-(J1-SSRXN1-PadB10)] of J1
+    @(141.1908 mm, 114.3825 mm): PTH pad G2 [GND] of J1
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1649 mm)
+    Rule: netclass 'GND'; error
+    @(140.7908 mm, 115.0925 mm): PTH pad B11 [unconnected-(J1-SSRXP1-PadB11)] of J1
+    @(140.3908 mm, 114.3825 mm): PTH pad B12 [GND] of J1
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1649 mm)
+    Rule: netclass 'GND'; error
+    @(140.7908 mm, 115.0925 mm): PTH pad B11 [unconnected-(J1-SSRXP1-PadB11)] of J1
+    @(141.1908 mm, 114.3825 mm): PTH pad G2 [GND] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(140.4408 mm, 113.1325 mm): Pad A1 [GND] of J1 on F.Cu
+    @(140.9408 mm, 113.1325 mm): Pad A2 [unconnected-(J1-SSTXP1-PadA2)] of J1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(140.9408 mm, 113.1325 mm): Pad A2 [unconnected-(J1-SSTXP1-PadA2)] of J1 on F.Cu
+    @(141.4408 mm, 113.1325 mm): Pad A3 [unconnected-(J1-SSTXN1-PadA3)] of J1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(141.4408 mm, 113.1325 mm): Pad A3 [unconnected-(J1-SSTXN1-PadA3)] of J1 on F.Cu
+    @(141.9408 mm, 113.1325 mm): Pad A4 [/VBUS] of J1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(141.9408 mm, 113.1325 mm): Pad A4 [/VBUS] of J1 on F.Cu
+    @(142.4408 mm, 113.1325 mm): Pad A5 [Net-(J1-CC1)] of J1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(142.4408 mm, 113.1325 mm): Pad A5 [Net-(J1-CC1)] of J1 on F.Cu
+    @(142.9408 mm, 113.1325 mm): Pad A6 [/USB_DP] of J1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(142.9408 mm, 113.1325 mm): Pad A6 [/USB_DP] of J1 on F.Cu
+    @(143.4408 mm, 113.1325 mm): Pad A7 [/USB_DN] of J1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.4408 mm, 113.1325 mm): Pad A7 [/USB_DN] of J1 on F.Cu
+    @(143.9408 mm, 113.1325 mm): Pad A8 [unconnected-(J1-SBU1-PadA8)] of J1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.9408 mm, 113.1325 mm): Pad A8 [unconnected-(J1-SBU1-PadA8)] of J1 on F.Cu
+    @(144.4408 mm, 113.1325 mm): Pad A9 [/VBUS] of J1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.4408 mm, 113.1325 mm): Pad A9 [/VBUS] of J1 on F.Cu
+    @(144.9408 mm, 113.1325 mm): Pad A10 [unconnected-(J1-SSRXN2-PadA10)] of J1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.9408 mm, 113.1325 mm): Pad A10 [unconnected-(J1-SSRXN2-PadA10)] of J1 on F.Cu
+    @(145.4408 mm, 113.1325 mm): Pad A11 [unconnected-(J1-SSRXP2-PadA11)] of J1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.4408 mm, 113.1325 mm): Pad A11 [unconnected-(J1-SSRXP2-PadA11)] of J1 on F.Cu
+    @(145.9408 mm, 113.1325 mm): Pad A12 [GND] of J1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.9908 mm, 114.3825 mm): PTH pad B1 [GND] of J1
+    @(145.5908 mm, 115.0925 mm): PTH pad B2 [unconnected-(J1-SSTXP2-PadB2)] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.9908 mm, 114.3825 mm): PTH pad B1 [GND] of J1
+    @(145.5908 mm, 115.0925 mm): PTH pad B2 [unconnected-(J1-SSTXP2-PadB2)] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.5908 mm, 115.0925 mm): PTH pad B2 [unconnected-(J1-SSTXP2-PadB2)] of J1
+    @(145.1908 mm, 114.3825 mm): PTH pad G1 [GND] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.5908 mm, 115.0925 mm): PTH pad B2 [unconnected-(J1-SSTXP2-PadB2)] of J1
+    @(144.7908 mm, 115.0925 mm): PTH pad B3 [unconnected-(J1-SSTXN2-PadB3)] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.5908 mm, 115.0925 mm): PTH pad B2 [unconnected-(J1-SSTXP2-PadB2)] of J1
+    @(145.1908 mm, 114.3825 mm): PTH pad G1 [GND] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.5908 mm, 115.0925 mm): PTH pad B2 [unconnected-(J1-SSTXP2-PadB2)] of J1
+    @(144.7908 mm, 115.0925 mm): PTH pad B3 [unconnected-(J1-SSTXN2-PadB3)] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.7908 mm, 115.0925 mm): PTH pad B3 [unconnected-(J1-SSTXN2-PadB3)] of J1
+    @(145.1908 mm, 114.3825 mm): PTH pad G1 [GND] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.7908 mm, 115.0925 mm): PTH pad B3 [unconnected-(J1-SSTXN2-PadB3)] of J1
+    @(144.3908 mm, 114.3825 mm): PTH pad B4 [/VBUS] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.7908 mm, 115.0925 mm): PTH pad B3 [unconnected-(J1-SSTXN2-PadB3)] of J1
+    @(143.9908 mm, 115.0925 mm): PTH pad B5 [Net-(J1-CC2)] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.7908 mm, 115.0925 mm): PTH pad B3 [unconnected-(J1-SSTXN2-PadB3)] of J1
+    @(145.1908 mm, 114.3825 mm): PTH pad G1 [GND] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.7908 mm, 115.0925 mm): PTH pad B3 [unconnected-(J1-SSTXN2-PadB3)] of J1
+    @(144.3908 mm, 114.3825 mm): PTH pad B4 [/VBUS] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.7908 mm, 115.0925 mm): PTH pad B3 [unconnected-(J1-SSTXN2-PadB3)] of J1
+    @(143.9908 mm, 115.0925 mm): PTH pad B5 [Net-(J1-CC2)] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.3908 mm, 114.3825 mm): PTH pad B4 [/VBUS] of J1
+    @(145.1908 mm, 114.3825 mm): PTH pad G1 [GND] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.3908 mm, 114.3825 mm): PTH pad B4 [/VBUS] of J1
+    @(143.9908 mm, 115.0925 mm): PTH pad B5 [Net-(J1-CC2)] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.3908 mm, 114.3825 mm): PTH pad B4 [/VBUS] of J1
+    @(143.5908 mm, 114.3825 mm): PTH pad B6 [/USB_DP] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.3908 mm, 114.3825 mm): PTH pad B4 [/VBUS] of J1
+    @(145.1908 mm, 114.3825 mm): PTH pad G1 [GND] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.3908 mm, 114.3825 mm): PTH pad B4 [/VBUS] of J1
+    @(143.9908 mm, 115.0925 mm): PTH pad B5 [Net-(J1-CC2)] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.3908 mm, 114.3825 mm): PTH pad B4 [/VBUS] of J1
+    @(143.5908 mm, 114.3825 mm): PTH pad B6 [/USB_DP] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.9908 mm, 115.0925 mm): PTH pad B5 [Net-(J1-CC2)] of J1
+    @(143.5908 mm, 114.3825 mm): PTH pad B6 [/USB_DP] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.9908 mm, 115.0925 mm): PTH pad B5 [Net-(J1-CC2)] of J1
+    @(143.5908 mm, 114.3825 mm): PTH pad B6 [/USB_DP] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.5908 mm, 114.3825 mm): PTH pad B6 [/USB_DP] of J1
+    @(142.7908 mm, 114.3825 mm): PTH pad B7 [/USB_DN] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.5908 mm, 114.3825 mm): PTH pad B6 [/USB_DP] of J1
+    @(142.7908 mm, 114.3825 mm): PTH pad B7 [/USB_DN] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(142.7908 mm, 114.3825 mm): PTH pad B7 [/USB_DN] of J1
+    @(142.3908 mm, 115.0925 mm): PTH pad B8 [unconnected-(J1-SBU2-PadB8)] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(142.7908 mm, 114.3825 mm): PTH pad B7 [/USB_DN] of J1
+    @(141.9908 mm, 114.3825 mm): PTH pad B9 [/VBUS] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(142.7908 mm, 114.3825 mm): PTH pad B7 [/USB_DN] of J1
+    @(142.3908 mm, 115.0925 mm): PTH pad B8 [unconnected-(J1-SBU2-PadB8)] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(142.7908 mm, 114.3825 mm): PTH pad B7 [/USB_DN] of J1
+    @(141.9908 mm, 114.3825 mm): PTH pad B9 [/VBUS] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(142.3908 mm, 115.0925 mm): PTH pad B8 [unconnected-(J1-SBU2-PadB8)] of J1
+    @(141.9908 mm, 114.3825 mm): PTH pad B9 [/VBUS] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(142.3908 mm, 115.0925 mm): PTH pad B8 [unconnected-(J1-SBU2-PadB8)] of J1
+    @(141.5908 mm, 115.0925 mm): PTH pad B10 [unconnected-(J1-SSRXN1-PadB10)] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(142.3908 mm, 115.0925 mm): PTH pad B8 [unconnected-(J1-SBU2-PadB8)] of J1
+    @(141.9908 mm, 114.3825 mm): PTH pad B9 [/VBUS] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(142.3908 mm, 115.0925 mm): PTH pad B8 [unconnected-(J1-SBU2-PadB8)] of J1
+    @(141.5908 mm, 115.0925 mm): PTH pad B10 [unconnected-(J1-SSRXN1-PadB10)] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(141.9908 mm, 114.3825 mm): PTH pad B9 [/VBUS] of J1
+    @(141.5908 mm, 115.0925 mm): PTH pad B10 [unconnected-(J1-SSRXN1-PadB10)] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(141.9908 mm, 114.3825 mm): PTH pad B9 [/VBUS] of J1
+    @(141.1908 mm, 114.3825 mm): PTH pad G2 [GND] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(141.9908 mm, 114.3825 mm): PTH pad B9 [/VBUS] of J1
+    @(141.5908 mm, 115.0925 mm): PTH pad B10 [unconnected-(J1-SSRXN1-PadB10)] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(141.9908 mm, 114.3825 mm): PTH pad B9 [/VBUS] of J1
+    @(141.1908 mm, 114.3825 mm): PTH pad G2 [GND] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(141.5908 mm, 115.0925 mm): PTH pad B10 [unconnected-(J1-SSRXN1-PadB10)] of J1
+    @(140.7908 mm, 115.0925 mm): PTH pad B11 [unconnected-(J1-SSRXP1-PadB11)] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(141.5908 mm, 115.0925 mm): PTH pad B10 [unconnected-(J1-SSRXN1-PadB10)] of J1
+    @(141.1908 mm, 114.3825 mm): PTH pad G2 [GND] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(141.5908 mm, 115.0925 mm): PTH pad B10 [unconnected-(J1-SSRXN1-PadB10)] of J1
+    @(140.7908 mm, 115.0925 mm): PTH pad B11 [unconnected-(J1-SSRXP1-PadB11)] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(141.5908 mm, 115.0925 mm): PTH pad B10 [unconnected-(J1-SSRXN1-PadB10)] of J1
+    @(141.1908 mm, 114.3825 mm): PTH pad G2 [GND] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(140.7908 mm, 115.0925 mm): PTH pad B11 [unconnected-(J1-SSRXP1-PadB11)] of J1
+    @(140.3908 mm, 114.3825 mm): PTH pad B12 [GND] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(140.7908 mm, 115.0925 mm): PTH pad B11 [unconnected-(J1-SSRXP1-PadB11)] of J1
+    @(141.1908 mm, 114.3825 mm): PTH pad G2 [GND] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(140.7908 mm, 115.0925 mm): PTH pad B11 [unconnected-(J1-SSRXP1-PadB11)] of J1
+    @(140.3908 mm, 114.3825 mm): PTH pad B12 [GND] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(140.7908 mm, 115.0925 mm): PTH pad B11 [unconnected-(J1-SSRXP1-PadB11)] of J1
+    @(141.1908 mm, 114.3825 mm): PTH pad G2 [GND] of J1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
