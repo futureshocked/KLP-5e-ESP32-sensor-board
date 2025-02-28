@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6a3f52f3-16a6-4e94-9323-604014356da8")
 	(paper "A4")
 	(lib_symbols
@@ -181,7 +181,7 @@
 			(symbol "B4B-XH-AM__LF__SN__0_0"
 				(polyline
 					(pts
-						(xy 0 -6.35) (xy 1.27 -7.62)
+						(xy 0 3.81) (xy 0 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -193,31 +193,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -5.08) (xy 1.905 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.905 0)
+						(xy 0 3.81) (xy 1.27 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -253,7 +229,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 2.54)
+						(xy 0 0) (xy 1.905 0)
 					)
 					(stroke
 						(width 0.254)
@@ -265,7 +241,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 1.27 5.08)
+						(xy 0 -2.54) (xy 1.905 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -273,23 +249,79 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 1.905 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 2.2225)
+					(end 2.2225 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -0.3175)
+					(end 2.2225 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -2.8575)
+					(end 2.2225 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -5.3975)
+					(end 2.2225 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
 						(xy 1.27 -7.62) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 7.62 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -311,48 +343,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.635 -5.3975)
-					(end 2.2225 -4.7625)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 7.62 5.08)
+					)
 					(stroke
-						(width 0.1)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.635 -2.8575)
-					(end 2.2225 -2.2225)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.635 -0.3175)
-					(end 2.2225 0.3175)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.635 2.2225)
-					(end 2.2225 2.8575)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -428,10 +428,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -498,30 +501,19 @@
 			)
 			(symbol "Conn_01x05_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -542,8 +534,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -553,14 +545,25 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -654,9 +657,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -775,6 +781,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Graphic:Logo_Open_Hardware_Small"
 			(exclude_from_sim no)
@@ -910,9 +917,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SparkFun-Capacitor:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1010,7 +1020,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1022,7 +1032,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1071,6 +1081,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SparkFun-PowerSymbol:3.3V"
 			(power)
@@ -1149,7 +1160,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1161,7 +1172,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1175,7 +1186,8 @@
 			(symbol "3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "3.3V"
 						(effects
 							(font
@@ -1192,10 +1204,368 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "TL3305AF260QG:TL3305AF260QG"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TL3305AF260QG"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TL3305AF260QG:SW_TL3305AF260QG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-4 E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TL3305AF260QG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TL3305AF260QG_0_0"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.524) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 2.54 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:BC817"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1268,6 +1638,18 @@
 			(symbol "BC817_0_1"
 				(polyline
 					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
@@ -1290,12 +1672,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1314,17 +1695,6 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "BC817_1_1"
 				(pin input line
@@ -1338,24 +1708,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1381,398 +1733,26 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "USLPT2819DT2TR:USLPT2819DT2TR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "USLPT2819DT2TR"
-				(at -5.08 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "TE Connectivity"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            Tactile Switch SPST-NO Top Actuated Surface Mount\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "USLPT2819DT2TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "TE CONNECTIVITY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "USLPT2819DT2TR_0_0"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -0.762)
-					(radius 0.3592)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.143)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.143) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.016) (xy 1.016 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0.762)
-					(radius 0.3592)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "T1"
-					(at -4.572 1.27 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "T2"
-					(at 3.556 1.27 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "T3"
-					(at -4.572 -2.032 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "T4"
-					(at 3.556 -2.032 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-						(justify left bottom)
-					)
-				)
 				(pin passive line
-					(at -7.62 2.54 0)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "~"
+					(name "E"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -1852,7 +1832,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1869,7 +1850,106 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 46.355 100.965)
+		(end 101.6 142.875)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 37456668-f858-4569-8ac7-0b271b465bf2)
+	)
+	(rectangle
+		(start 46.355 42.545)
+		(end 110.49 88.265)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 97b388b1-662c-4489-8f7b-b1904d181722)
+	)
+	(rectangle
+		(start 122.555 42.545)
+		(end 230.505 144.145)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9cd54bed-a964-46d4-8689-884bce9d3d22)
+	)
+	(text "OLED display connector (I2C)"
+		(exclude_from_sim no)
+		(at 58.42 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70cfb742-cf73-4c82-add6-be1c6397961f")
+	)
+	(text "RESET and BOOT buttons"
+		(exclude_from_sim no)
+		(at 135.89 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a74f163d-c58f-493d-9fc4-455ca2793842")
+	)
+	(text "Breakout for remaining pins"
+		(exclude_from_sim no)
+		(at 59.69 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb4dc72e-4062-4a31-850e-bcc57a332361")
+	)
+	(text_box "To learn more about the boot mode selection,\nsee documentation at https://txplo.re/esp32boot"
+		(exclude_from_sim no)
+		(at 198.755 131.445 0)
+		(size 29.845 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c68aa48f-4a91-43be-9354-3729d8b4b1dd")
+	)
+	(junction
+		(at 151.13 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bef54c4-c648-4b7c-a676-e82943a19d56")
+	)
+	(junction
+		(at 175.26 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c47c7e0-4e24-4db8-948d-f1d75cad7447")
 	)
 	(junction
 		(at 154.94 128.27)
@@ -1884,34 +1964,22 @@
 		(uuid "462dcad8-e1e8-4e68-92e4-1321c46af767")
 	)
 	(junction
-		(at 151.13 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f05044c-1d50-4cdb-bb0a-d3af0ae4289d")
-	)
-	(junction
-		(at 226.06 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e36c97d-6904-4c9c-8dd1-874512f95a04")
-	)
-	(junction
 		(at 151.13 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f5fd987-0a38-43ce-ade7-b78ff998bf14")
 	)
 	(junction
-		(at 175.26 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99fa346f-4400-45e6-ab18-60a287e8e696")
-	)
-	(junction
 		(at 203.2 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6ae0ab4-8191-4cec-b548-7055ae28f71b")
+	)
+	(junction
+		(at 227.33 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d246194c-2ed4-49a4-8f02-7ee623468507")
 	)
 	(junction
 		(at 157.48 111.76)
@@ -1923,7 +1991,7 @@
 		(at 203.2 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fe80324c-fb9f-49ee-89d6-0b41647c1b7e")
+		(uuid "f79c0fab-65a6-4099-9251-6001584b7b9b")
 	)
 	(wire
 		(pts
@@ -1947,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 76.2) (xy 203.2 76.2)
+			(xy 203.2 76.2) (xy 226.06 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1957,17 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 64.77) (xy 171.45 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04cde9c9-d940-40f7-9a28-a03a5bb768ec")
-	)
-	(wire
-		(pts
-			(xy 171.45 69.85) (xy 151.13 69.85)
+			(xy 151.13 69.85) (xy 173.99 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +2045,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 52.07) (xy 175.26 52.07)
+			(xy 151.13 52.07) (xy 175.26 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1997,23 +2055,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 59.69) (xy 153.67 52.07)
+			(xy 151.13 59.69) (xy 151.13 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0c14ea16-71c9-4a5f-b48b-aa9e2462e4ce")
-	)
-	(wire
-		(pts
-			(xy 222.25 64.77) (xy 226.06 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ca24698-8a12-43a5-bde5-1cb929e71f58")
 	)
 	(wire
 		(pts
@@ -2047,23 +2095,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 64.77) (xy 154.94 64.77)
+			(xy 226.06 76.2) (xy 226.06 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37510ae6-e345-479b-af70-453cab3c75bb")
+		(uuid "31286d24-d5aa-482f-a955-627062860ab5")
 	)
 	(wire
 		(pts
-			(xy 171.45 64.77) (xy 171.45 69.85)
+			(xy 175.26 59.69) (xy 175.26 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a9182da-8235-4b36-bbd8-dc1b4f941dd0")
+		(uuid "39bde4cb-e50b-46f3-8006-7d1971fde1ef")
 	)
 	(wire
 		(pts
@@ -2107,13 +2155,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 59.69) (xy 175.26 83.82)
+			(xy 175.26 52.07) (xy 175.26 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "50397b32-5cac-4ce8-9c82-6d17174daeb4")
+	)
+	(wire
+		(pts
+			(xy 203.2 69.85) (xy 204.47 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c4a4ce-f914-43b0-97fa-0ac5fa5471a0")
 	)
 	(wire
 		(pts
@@ -2167,6 +2225,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 64.77) (xy 227.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699a892a-140c-44a6-97b6-a4808133424d")
+	)
+	(wire
+		(pts
 			(xy 66.04 115.57) (xy 66.04 109.22)
 		)
 		(stroke
@@ -2177,13 +2245,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 69.85) (xy 223.52 76.2)
+			(xy 151.13 64.77) (xy 152.4 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76591a71-19a3-44eb-9940-cdedd54c0960")
+		(uuid "6f70e6bf-e818-4056-afd6-f6b18958e002")
 	)
 	(wire
 		(pts
@@ -2204,16 +2272,6 @@
 			(type default)
 		)
 		(uuid "7b0018a5-a512-4587-9b72-5519c9026d67")
-	)
-	(wire
-		(pts
-			(xy 175.26 52.07) (xy 175.26 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842b7bbc-aa26-493f-a74d-d86837cb8b3b")
 	)
 	(wire
 		(pts
@@ -2247,7 +2305,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 64.77) (xy 205.74 57.15)
+			(xy 203.2 64.77) (xy 203.2 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2277,16 +2335,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 59.69) (xy 175.26 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9629bdb9-18be-4c96-b4f0-68cee18e3147")
-	)
-	(wire
-		(pts
 			(xy 181.61 121.92) (xy 157.48 121.92)
 		)
 		(stroke
@@ -2307,16 +2355,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 69.85) (xy 207.01 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b0607ef-bfe5-460e-a372-87ba2151878a")
-	)
-	(wire
-		(pts
 			(xy 66.04 67.31) (xy 66.04 76.2)
 		)
 		(stroke
@@ -2327,7 +2365,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 59.69) (xy 154.94 59.69)
+			(xy 151.13 59.69) (xy 152.4 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 64.77) (xy 207.01 64.77)
+			(xy 203.2 64.77) (xy 204.47 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2374,6 +2412,16 @@
 			(type default)
 		)
 		(uuid "c912f585-90df-4903-842b-b989a3af762e")
+	)
+	(wire
+		(pts
+			(xy 224.79 64.77) (xy 227.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc27d59e-0d55-4f0c-b651-cf57c9c14d97")
 	)
 	(wire
 		(pts
@@ -2407,13 +2455,43 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 64.77) (xy 226.06 88.9)
+			(xy 173.99 64.77) (xy 173.99 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc359013-a5ad-4caf-95d9-23867f137478")
+	)
+	(wire
+		(pts
+			(xy 227.33 57.15) (xy 227.33 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e16dfd5f-000d-4f43-84d7-8f1242aec324")
+	)
+	(wire
+		(pts
+			(xy 172.72 59.69) (xy 175.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17e469a-3e60-4cd1-bb50-c399bf9d6486")
+	)
+	(wire
+		(pts
+			(xy 226.06 69.85) (xy 224.79 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e184f084-f9f9-4e70-886e-e90e45d470c5")
 	)
 	(wire
 		(pts
@@ -2447,16 +2525,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 57.15) (xy 226.06 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebba1c3b-e548-462e-92ad-d4305966e543")
-	)
-	(wire
-		(pts
 			(xy 181.61 116.84) (xy 181.61 119.38)
 		)
 		(stroke
@@ -2467,13 +2535,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 69.85) (xy 223.52 69.85)
+			(xy 172.72 64.77) (xy 173.99 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eeef2eaa-7a5c-4376-bde0-b7edd7db97f3")
+		(uuid "efda9176-e5c1-4fdb-99e2-7c5bae3bcd2f")
 	)
 	(wire
 		(pts
@@ -2487,49 +2555,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 57.15) (xy 226.06 57.15)
+			(xy 203.2 57.15) (xy 227.33 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f7438933-e500-43c5-a753-fd1d3c4a7880")
-	)
-	(rectangle
-		(start 46.355 100.965)
-		(end 101.6 142.875)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 37456668-f858-4569-8ac7-0b271b465bf2)
-	)
-	(rectangle
-		(start 46.355 42.545)
-		(end 110.49 88.265)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 97b388b1-662c-4489-8f7b-b1904d181722)
-	)
-	(rectangle
-		(start 122.555 42.545)
-		(end 230.505 144.145)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9cd54bed-a964-46d4-8689-884bce9d3d22)
 	)
 	(image
 		(at 205.105 118.745)
@@ -2713,62 +2745,48 @@
 			"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"
-			"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"
+			"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"
 		)
-	)
-	(text_box "To learn more about the boot mode selection,\nsee documentation at https://txplo.re/esp32boot"
-		(exclude_from_sim no)
-		(at 198.755 131.445 0)
-		(size 29.845 11.43)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c68aa48f-4a91-43be-9354-3729d8b4b1dd")
-	)
-	(text "OLED display connector (I2C)"
-		(exclude_from_sim no)
-		(at 58.42 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "70cfb742-cf73-4c82-add6-be1c6397961f")
-	)
-	(text "RESET and BOOT buttons"
-		(exclude_from_sim no)
-		(at 135.89 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a74f163d-c58f-493d-9fc4-455ca2793842")
-	)
-	(text "Breakout for remaining pins"
-		(exclude_from_sim no)
-		(at 59.69 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bb4dc72e-4062-4a31-850e-bcc57a332361")
 	)
 	(hierarchical_label "BOOT"
 		(shape bidirectional)
 		(at 130.81 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2780,7 +2798,6 @@
 	(hierarchical_label "GPIO19"
 		(shape bidirectional)
 		(at 71.12 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2792,7 +2809,6 @@
 	(hierarchical_label "GPIO8"
 		(shape bidirectional)
 		(at 71.12 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2804,7 +2820,6 @@
 	(hierarchical_label "RTS"
 		(shape output)
 		(at 149.86 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2816,7 +2831,6 @@
 	(hierarchical_label "BOOT"
 		(shape bidirectional)
 		(at 186.69 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2828,7 +2842,6 @@
 	(hierarchical_label "GPIO18"
 		(shape bidirectional)
 		(at 71.12 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2840,7 +2853,6 @@
 	(hierarchical_label "EN"
 		(shape input)
 		(at 182.88 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2852,7 +2864,6 @@
 	(hierarchical_label "DTR"
 		(shape output)
 		(at 149.86 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2864,7 +2875,6 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 60.96 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2876,7 +2886,6 @@
 	(hierarchical_label "EN"
 		(shape input)
 		(at 186.69 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2888,7 +2897,6 @@
 	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 60.96 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2965,7 +2973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "USLPT2819DT2TR:USLPT2819DT2TR")
+		(lib_id "TL3305AF260QG:TL3305AF260QG")
 		(at 214.63 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2990,7 +2998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:SW_USLPT2819DT2TR"
+		(property "Footprint" "TL3305AF260QG:SW_TL3305AF260QG"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3089,7 +3097,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TE Connectivity"
+		(property "MF" "E-Switch"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3099,7 +3107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            Tactile Switch SPST-NO Top Actuated Surface Mount\n                        \n"
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3109,7 +3117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "SMD-4 E-Switch"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3129,7 +3137,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3139,7 +3147,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "USLPT2819DT2TR"
+		(property "MP" "TL3305AF260QG"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3159,7 +3167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3169,7 +3177,7 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "STANDARD" "Manufacturer recommendations"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3179,7 +3187,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "P"
+		(property "PARTREV" "C"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3189,7 +3197,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "TE CONNECTIVITY"
+		(property "MANUFACTURER" "E-Switch"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3205,6 +3213,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
+			(at 214.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -3940,7 +3958,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 88.9 0)
+		(at 227.33 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3949,7 +3967,7 @@
 		(fields_autoplaced yes)
 		(uuid "84262704-bcdd-433b-b115-59f4c7e6067b")
 		(property "Reference" "#PWR056"
-			(at 226.06 95.25 0)
+			(at 227.33 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +3976,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 93.98 0)
+			(at 227.33 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +3984,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 88.9 0)
+			(at 227.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +3993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 88.9 0)
+			(at 227.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +4002,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 88.9 0)
+			(at 227.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,7 +5107,7 @@
 		)
 	)
 	(symbol
-		(lib_id "USLPT2819DT2TR:USLPT2819DT2TR")
+		(lib_id "TL3305AF260QG:TL3305AF260QG")
 		(at 162.56 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5114,7 +5132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:SW_USLPT2819DT2TR"
+		(property "Footprint" "TL3305AF260QG:SW_TL3305AF260QG"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5213,7 +5231,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TE Connectivity"
+		(property "MF" "E-Switch"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5223,7 +5241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            Tactile Switch SPST-NO Top Actuated Surface Mount\n                        \n"
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5233,7 +5251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "SMD-4 E-Switch"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5253,7 +5271,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5263,7 +5281,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "USLPT2819DT2TR"
+		(property "MP" "TL3305AF260QG"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5283,7 +5301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5302,7 +5320,7 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "STANDARD" "Manufacturer recommendations"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5312,7 +5330,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "P"
+		(property "PARTREV" "C"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5322,7 +5340,17 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "TE CONNECTIVITY"
+		(property "MANUFACTURER" "E-Switch"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
 			(at 162.56 62.23 0)
 			(effects
 				(font
