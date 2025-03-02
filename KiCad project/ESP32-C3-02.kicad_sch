@@ -8168,7 +8168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project_Library:AMPHENOL_GSD090012SEU"
+		(property "Footprint" "Footprints:AMPHENOL_GSD090012SEU"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -11214,7 +11214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project_Library:SOIC127P790X216-8N"
+		(property "Footprint" "Footprints:SOIC127P790X216-8N"
 			(at 73.66 167.64 0)
 			(effects
 				(font

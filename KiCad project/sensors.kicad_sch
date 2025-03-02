@@ -4470,7 +4470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project_Library:CUI_CMC-5042PF-AC"
+		(property "Footprint" "Footprints:CUI_CMC-5042PF-AC"
 			(at 125.73 121.92 0)
 			(effects
 				(font
@@ -4846,7 +4846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project_Library:PSON65P250X250X100-8N"
+		(property "Footprint" "Footprints:PSON65P250X250X100-8N"
 			(at 68.58 54.61 0)
 			(effects
 				(font
@@ -5376,7 +5376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 143.2052 63.5 0)
 			(effects
 				(font
@@ -5522,7 +5522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 174.9552 62.23 0)
 			(effects
 				(font
@@ -5601,7 +5601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.0452 63.5 0)
 			(effects
 				(font
@@ -6432,7 +6432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project_Library:SOT65P210X110-5N"
+		(property "Footprint" "Footprints:SOT65P210X110-5N"
 			(at 191.77 116.84 0)
 			(effects
 				(font
@@ -6972,7 +6972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "35WR100KLFTR:TRIM_35WR100KLFTR"
+		(property "Footprint" "Footprints:TRIM_35WR100KLFTR"
 			(at 198.12 138.43 0)
 			(effects
 				(font
@@ -7455,7 +7455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project_Library:TRANS_TEMT6000X01"
+		(property "Footprint" "Footprints:TRANS_TEMT6000X01"
 			(at 162.56 49.53 0)
 			(effects
 				(font
