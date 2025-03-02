@@ -8019,7 +8019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FBMJ2125HM330-T:BEADC2012X105N"
+		(property "Footprint" "Footprints:BEADC2012X105N"
 			(at 199.39 105.41 0)
 			(effects
 				(font
