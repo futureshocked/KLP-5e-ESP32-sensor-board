@@ -1206,361 +1206,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TL3305AF260QG:TL3305AF260QG"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TL3305AF260QG"
-				(at -5.08 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "TL3305AF260QG:SW_TL3305AF260QG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "E-Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SMD-4 E-Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "TL3305AF260QG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "E-Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TL3305AF260QG_0_0"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.524) (xy 0 1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 2.54 1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_BJT:BC817"
 			(pin_names
 				(offset 0)
@@ -1747,6 +1392,398 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "USLPT2819DT2TR:USLPT2819DT2TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "USLPT2819DT2TR"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "USLPT2819DT2TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TE CONNECTIVITY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "USLPT2819DT2TR_0_0"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.143) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0.762)
+					(radius 0.3592)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -0.762)
+					(radius 0.3592)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.143)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.016) (xy 1.016 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "T1"
+					(at -4.572 1.27 0)
+					(effects
+						(font
+							(size 0.8128 0.8128)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "T3"
+					(at -4.572 -2.032 0)
+					(effects
+						(font
+							(size 0.8128 0.8128)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "T2"
+					(at 3.556 1.27 0)
+					(effects
+						(font
+							(size 0.8128 0.8128)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "T4"
+					(at 3.556 -2.032 0)
+					(effects
+						(font
+							(size 0.8128 0.8128)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2075,6 +2112,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 64.77) (xy 173.99 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4b0f26-cb71-4e65-bb6e-cba629dd8668")
+	)
+	(wire
+		(pts
 			(xy 157.48 111.76) (xy 158.75 111.76)
 		)
 		(stroke
@@ -2092,6 +2139,16 @@
 			(type default)
 		)
 		(uuid "2be54c39-d285-43f0-a81a-10daa19127c6")
+	)
+	(wire
+		(pts
+			(xy 170.18 59.69) (xy 175.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dadd0cc-fa9c-4902-ad0f-9f4ed47a3b13")
 	)
 	(wire
 		(pts
@@ -2165,7 +2222,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 69.85) (xy 204.47 69.85)
+			(xy 203.2 69.85) (xy 207.01 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2245,7 +2302,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 64.77) (xy 152.4 64.77)
+			(xy 222.25 69.85) (xy 226.06 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1ca1d7-a590-40e3-b617-60095caf9d9d")
+	)
+	(wire
+		(pts
+			(xy 151.13 64.77) (xy 154.94 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2365,7 +2432,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 59.69) (xy 152.4 59.69)
+			(xy 151.13 59.69) (xy 154.94 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2395,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 64.77) (xy 204.47 64.77)
+			(xy 203.2 64.77) (xy 207.01 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2412,16 +2479,6 @@
 			(type default)
 		)
 		(uuid "c912f585-90df-4903-842b-b989a3af762e")
-	)
-	(wire
-		(pts
-			(xy 224.79 64.77) (xy 227.33 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc27d59e-0d55-4f0c-b651-cf57c9c14d97")
 	)
 	(wire
 		(pts
@@ -2455,6 +2512,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 64.77) (xy 227.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5485bd-d718-4569-9a74-e880db1ea080")
+	)
+	(wire
+		(pts
 			(xy 173.99 64.77) (xy 173.99 69.85)
 		)
 		(stroke
@@ -2472,26 +2539,6 @@
 			(type default)
 		)
 		(uuid "e16dfd5f-000d-4f43-84d7-8f1242aec324")
-	)
-	(wire
-		(pts
-			(xy 172.72 59.69) (xy 175.26 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e17e469a-3e60-4cd1-bb50-c399bf9d6486")
-	)
-	(wire
-		(pts
-			(xy 226.06 69.85) (xy 224.79 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e184f084-f9f9-4e70-886e-e90e45d470c5")
 	)
 	(wire
 		(pts
@@ -2532,16 +2579,6 @@
 			(type default)
 		)
 		(uuid "ec0bda75-83af-4e62-a323-9a445384d6cb")
-	)
-	(wire
-		(pts
-			(xy 172.72 64.77) (xy 173.99 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efda9176-e5c1-4fdb-99e2-7c5bae3bcd2f")
 	)
 	(wire
 		(pts
@@ -3027,7 +3064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TL3305AF260QG:TL3305AF260QG")
+		(lib_id "USLPT2819DT2TR:USLPT2819DT2TR")
 		(at 214.63 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3052,7 +3089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:SW_TL3305AF260QG"
+		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3151,7 +3188,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "E-Switch"
+		(property "MF" "TE Connectivity"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3171,7 +3208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "SMD-4 E-Switch"
+		(property "Package" "None"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3191,7 +3228,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3201,7 +3238,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "TL3305AF260QG"
+		(property "MP" "USLPT2819DT2TR"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3221,7 +3258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3231,7 +3268,7 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer recommendations"
+		(property "STANDARD" "Manufacturer Recommendations"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3241,7 +3278,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "C"
+		(property "PARTREV" "P"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -3251,7 +3288,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "E-Switch"
+		(property "MANUFACTURER" "TE CONNECTIVITY"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -5161,7 +5198,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TL3305AF260QG:TL3305AF260QG")
+		(lib_id "USLPT2819DT2TR:USLPT2819DT2TR")
 		(at 162.56 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5186,7 +5223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:SW_TL3305AF260QG"
+		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5285,7 +5322,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "E-Switch"
+		(property "MF" "TE Connectivity"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5305,7 +5342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "SMD-4 E-Switch"
+		(property "Package" "None"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5325,7 +5362,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5335,7 +5372,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "TL3305AF260QG"
+		(property "MP" "USLPT2819DT2TR"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5355,7 +5392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5374,7 +5411,7 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer recommendations"
+		(property "STANDARD" "Manufacturer Recommendations"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5384,7 +5421,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "C"
+		(property "PARTREV" "P"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -5394,7 +5431,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "E-Switch"
+		(property "MANUFACTURER" "TE CONNECTIVITY"
 			(at 162.56 62.23 0)
 			(effects
 				(font
